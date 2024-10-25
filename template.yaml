@@ -64,6 +64,21 @@ Resources:
         AllowMethods: "'GET,POST,OPTIONS'"
         AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
         AllowOrigin: "'*'"
+  scraperFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: scraper/
+      Handler: scrape.scrape
+      Runtime: python3.12
+      Timeout: 512  # Increase the timeout if needed
+      MemorySize: 512  # Adjust the memory if needed
+      Events:
+        getUsersEvent:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /getPrices
+            Method: get
+            RestApiId: !Ref ApiDeployment
   getUsersFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
