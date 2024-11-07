@@ -1,7 +1,8 @@
 import {DynamoDBClient} from "@aws-sdk/client-dynamodb"
 import {DynamoDBDocumentClient,ScanCommand} from "@aws-sdk/lib-dynamodb";
 
-const client = new DynamoDBClient({})
+// const client = new DynamoDBClient({endpoint: "http://10.34.4.147:8000",})
+const client = new DynamoDBClient()
 const docClient = DynamoDBDocumentClient.from(client)
 var table = process.env.TABLE_GAS_STATIONS
 export const lambdaHandler = async (event, context) => {
