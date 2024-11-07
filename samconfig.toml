@@ -3,7 +3,8 @@ version = 0.1
 stack_name = "grasp-backend"
 resolve_s3 = true
 s3_prefix = "grasp-backend"
-region = "us-west-2"
+region = "us-east-2"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "EnvType=\"NP\""
 image_repositories = []
+confirm_changeset = true
