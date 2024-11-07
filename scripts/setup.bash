@@ -1,4 +1,7 @@
 #!/bin/bash
+# make sure your excecuting this script on this folder
+# please make sure local dynamo db is running using this command:
+#                   docker run -p 8000:8000 amazon/dynamodb-local
 
 # Define paths
 VENV_DIR=".temp_env"  # Temporary virtual environment directory
@@ -9,8 +12,6 @@ if ! command -v python3 &> /dev/null; then
     echo "Python3 is not installed. Please install Python3 to continue."
     exit 1
 fi
-
-docker run -p 8000:8000 amazon/dynamodb-local
 
 # Create a temporary virtual environment
 echo "Creating virtual environment..."
