@@ -6,9 +6,10 @@ table_name = 'GasStationsTable'
 
 def scrape(event=None, context=None):
      # Initialize DynamoDB resource
-    dynamodb = boto3.resource('dynamodb', endpoint_url="http://10.34.4.143:8000") #replace endpoint with your local ip
+    # dynamodb = boto3.resource('dynamodb')
+    dynamodb = boto3.resource('dynamodb', endpoint_url="http://10.34.11.6:8000") #replace endpoint with your local ip
     table = dynamodb.Table(table_name)
-    data = event['stations']
+    data = event['queryStringParameters']['stations']
 
     for gas_station in data:
         # Search for stations with a similar name

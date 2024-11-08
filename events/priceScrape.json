@@ -1,108 +1,110 @@
 {
-    "stations": [
-        {
-            "name": "Total",
-            "prices": {
-                "regular": "82.7",
-                "premium": "97.7",
-                "diesel": "84.7"
+    "queryStringParameters": {
+        "stations": [
+            {
+                "name": "Total",
+                "prices": {
+                    "regular": "82.7",
+                    "premium": "97.7",
+                    "diesel": "84.7"
+                }
+            },
+            {
+                "name": "Puma",
+                "prices": {
+                    "regular": "81.7",
+                    "premium": "96.7",
+                    "diesel": "83.7"
+                }
+            },
+            {
+                "name": "Gulf",
+                "prices": {
+                    "regular": "78.7",
+                    "premium": "92.7",
+                    "diesel": "78.7"
+                }
+            },
+            {
+                "name": "Ecomaxx",
+                "prices": {
+                    "regular": "79.7",
+                    "premium": "92.7",
+                    "diesel": "80.7"
+                }
+            },
+            {
+                "name": "Bita's",
+                "prices": {
+                    "regular": "78.7",
+                    "premium": "92.7",
+                    "diesel": "78.7"
+                }
+            },
+            {
+                "name": "American Gas",
+                "prices": {
+                    "regular": "81.7",
+                    "premium": "85.7",
+                    "diesel": "80.7"
+                }
+            },
+            {
+                "name": "ULTRA TOP FUEL",
+                "prices": {
+                    "regular": "78.7",
+                    "premium": "92.7",
+                    "diesel": "77.7"
+                }
+            },
+            {
+                "name": "Texaco",
+                "prices": {
+                    "regular": "82.7",
+                    "premium": "97.7",
+                    "diesel": "84.7"
+                }
+            },
+            {
+                "name": "76",
+                "prices": {
+                    "regular": "77.7",
+                    "premium": "91.7",
+                    "diesel": "77.7"
+                }
+            },
+            {
+                "name": "Phillips",
+                "prices": {
+                    "regular": "77.7",
+                    "premium": "91.7",
+                    "diesel": "77.7"
+                }
+            },
+            {
+                "name": "Sol",
+                "prices": {
+                    "regular": "81.7",
+                    "premium": "96.7",
+                    "diesel": "83.7"
+                }
+            },
+            {
+                "name": "Mobil",
+                "prices": {
+                    "regular": "81.7",
+                    "premium": "96.7",
+                    "diesel": "83.7"
+                }
+            },
+            {
+                "name": "Shell",
+                "prices": {
+                    "regular": "81.7",
+                    "premium": "96.7",
+                    "diesel": "83.7"
+                }
             }
-        },
-        {
-            "name": "Puma",
-            "prices": {
-                "regular": "81.7",
-                "premium": "96.7",
-                "diesel": "83.7"
-            }
-        },
-        {
-            "name": "Gulf",
-            "prices": {
-                "regular": "78.7",
-                "premium": "92.7",
-                "diesel": "78.7"
-            }
-        },
-        {
-            "name": "Ecomaxx",
-            "prices": {
-                "regular": "79.7",
-                "premium": "92.7",
-                "diesel": "80.7"
-            }
-        },
-        {
-            "name": "Bita's",
-            "prices": {
-                "regular": "78.7",
-                "premium": "92.7",
-                "diesel": "78.7"
-            }
-        },
-        {
-            "name": "American Gas",
-            "prices": {
-                "regular": "81.7",
-                "premium": "85.7",
-                "diesel": "80.7"
-            }
-        },
-        {
-            "name": "ULTRA TOP FUEL",
-            "prices": {
-                "regular": "78.7",
-                "premium": "92.7",
-                "diesel": "77.7"
-            }
-        },
-        {
-            "name": "Texaco",
-            "prices": {
-                "regular": "82.7",
-                "premium": "97.7",
-                "diesel": "84.7"
-            }
-        },
-        {
-            "name": "76",
-            "prices": {
-                "regular": "77.7",
-                "premium": "91.7",
-                "diesel": "77.7"
-            }
-        },
-        {
-            "name": "Phillips",
-            "prices": {
-                "regular": "77.7",
-                "premium": "91.7",
-                "diesel": "77.7"
-            }
-        },
-        {
-            "name": "Sol",
-            "prices": {
-                "regular": "81.7",
-                "premium": "96.7",
-                "diesel": "83.7"
-            }
-        },
-        {
-            "name": "Mobil",
-            "prices": {
-                "regular": "81.7",
-                "premium": "96.7",
-                "diesel": "83.7"
-            }
-        },
-        {
-            "name": "Shell",
-            "prices": {
-                "regular": "81.7",
-                "premium": "96.7",
-                "diesel": "83.7"
-            }
-        }
-    ]
+        ]
+    }
 }
