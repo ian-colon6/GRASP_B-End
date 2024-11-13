@@ -1,0 +1,903 @@
+Station_ID,Station_Name,Station_City,Station_Lattitude,Station_Longitude,Station_Gas_Price
+1,Cabo Rojo Gas,Hormigueros,18.1238286,-67.1245766,-1
+2,Matos Service Station,Aguada,18.3715889,-67.1950071,-1
+3,Total Gas Station,Mayagüez,18.228181,-67.160769,93.7
+4,GULF Gas Station Mayagüez,Mayagüez,18.2237427,-67.1578752,91.7
+5,Garaje La Variante,Añasco,18.2962688,-67.1984221,-1
+6,Puma AGUADA /DAUHAJRE LLC #534,Aguada,18.3769159,-67.178094,92.7
+7,Puma,Rincón,18.3139443,-67.2240453,92.7
+8,TotalEnergies Pico de Piedra,Aguada,18.3812644,-67.2125188,93.7
+9,Rincon Racing Station,Rincón,18.352063,-67.2424007,-1
+10,Phillips 66,Aguada,18.3823363,-67.1813385,91.7
+11,Mobil - Gas Station,Aguada,18.3793623,-67.1853292,92.7
+12,Mobil - Gas Station,Aguadilla,18.2959899,-67.2093142,92.7
+13,Texaco,Rincón,18.3254585,-67.2455828,93.7
+14,Gulf,Rincón,18.3606037,-67.2503671,91.7
+15,To Go! #65,Rincón,18.3376355,-67.25229,-1
+16,JR GAS STATION,Aguada,18.3222178,-67.1730367,-1
+17,Gulf,Mayagüez,18.1737794,-67.1751419,91.7
+18,Gulf,Rincón,18.3409677,-67.2505378,91.7
+19,Gulf,Aguada,18.3869751,-67.1736141,91.7
+20,Gulf,Aguada,18.3811607,-67.1918159,91.7
+21,Subway,Rincón,18.3253809,-67.2456485,-1
+22,GAS Burgers,Rincón,18.3374829,-67.2523761,-1
+23,TotalEnergies Gas Station,Aguada,18.381287,-67.2124937,93.7
+24,Centro Gas Hiram Inc,Aguada,18.3802619,-67.1893482,-1
+25,MOBIL - Gas Station,Mayagüez,18.16505,-67.1488802,92.7
+26,Puma,Hormigueros,18.1284556,-67.1009178,92.7
+27,Ecomaxx IDA S/S,Lajas,18.0492138,-67.0624082,93.7
+28,Cabo Rojo Gas,Mayagüez,18.2012527,-67.1367527,-1
+29,Garden Center at The Home Depot,Mayagüez,18.240453,-67.1636689,-1
+30,Family Wheels LLC,Aguada,18.3243559,-67.1478389,-1
+31,Justiniano Tire & Auto Parts Shop (Gomera),San Germán,18.1092035,-67.0516628,-1
+32,Praxair Mayaguez,Mayagüez,18.2061028,-67.1466878,-1
+33,Su Tienda Autoparts (Mopar) en Mayaguez,Mayagüez,18.205762,-67.151965,-1
+34,Edis Gas,Sabana Grande,18.0792877,-66.9610832,-1
+35,Puma Gas Station - Gasolinera Puma,San Sebastián,18.3373376,-66.9964203,92.7
+36,Empire Gas,Las Marías,18.2514449,-66.9992259,-1
+37,Cabo Rojo Gas,Lajas,18.029072,-67.0497873,-1
+38,Shield Gas,Mayagüez,18.1787118,-67.1713918,-1
+39,Agencia Hipica 125,Las Marías,18.250391,-67.0021166,-1
+40,Gulf Gas Station,Añasco,18.2968402,-67.1428357,91.7
+41,Gulf,Las Marías,18.2532245,-66.98837,91.7
+42,Mobil - Gas Station,Las Marías,18.2503998,-67.0021255,92.7
+43,Gas Propano,San Germán,18.0701563,-67.0429067,-1
+44,Tropi Gas Mayaguez,Mayagüez,18.2423534,-67.1593911,-1
+45,Ardere Pizza e Pasta,Mayagüez,18.2294483,-67.1364893,-1
+46,Gomera el Badén,Lajas,18.039114,-67.090099,-1
+47,Mobil | Mani Service Station,Mayagüez,18.249827,-67.160381,92.7
+48,Garaje Damian,Lajas,18.0282049,-67.0501533,-1
+49,Ecomaxx,Lajas,18.049277,-67.062355,93.7
+50,Cabo Rojo Auto Collision,Cabo Rojo,18.1158876,-67.1524092,-1
+51,Ecomaxx,Mayagüez,18.1816108,-67.1441269,93.7
+52,Gulf-San German Gas Station P.R,San Germán,18.0795873,-67.0095278,91.7
+53,Puma Waldemar Ramos 646,Cabo Rojo,18.0884032,-67.1382853,92.7
+54,TotalEnergies Barrio Lavadero,Hormigueros,18.1376211,-67.1353093,93.7
+55,"Ecomaxx, Las Arenas SS - Boqueron",Cabo Rojo,18.0276037,-67.1396873,93.7
+56,Ecomaxx - Power Fuel,Cabo Rojo,18.0414678,-67.1440397,93.7
+57,Garaje Total Estacion Mz0113,San Germán,18.0835932,-67.0326593,93.7
+58,Rapid Oil Change Mayaguez,Mayagüez,18.1663409,-67.1507251,-1
+59,Puma Mayagüez Carr. #2,Mayagüez,18.1647371,-67.1477378,92.7
+60,Ecomaxx Parguera,Lajas,17.9762064,-67.0494757,93.7
+61,EcoMaxx RJ&M Service Station,Mayagüez,18.1694876,-67.1224419,93.7
+62,Ecomaxx Mayagüez Pueblo,Mayagüez,18.2050784,-67.1405468,93.7
+63,John John Service Station & Mini Market,Lajas,18.0498333,-67.0384482,-1
+64,Puma Service Station,Hormigueros,18.1541942,-67.142487,92.7
+65,Ecomaxx,Cabo Rojo,18.0244495,-67.1507351,93.7
+66,TotalEnergies Barrio Palmarejo,Lajas,18.0417513,-67.0759048,93.7
+67,TotalEnergies Conde Ávila,Cabo Rojo,18.1125334,-67.161445,93.7
+68,Bryan's Service Station | GASOLINERA TOTAL EL COMBATE,Cabo Rojo,17.9887634,-67.1697123,92.7
+69,Nautilus puma corp/ QUALITY GAS SS,Lajas,18.0098765,-67.0704714,92.7
+70,TotalEnergies Carretera 100,Cabo Rojo,18.1202835,-67.1614834,93.7
+71,TotalEnergies Avenida Casto Perez,San Germán,18.0835306,-67.0326884,93.7
+72,TotalEnergies Belmonte,Mayagüez,18.1878244,-67.1429252,93.7
+73,Puma 929,San Germán,18.0855164,-67.0315354,92.7
+74,Planta de Gas Cabo Rojo Gas,Cabo Rojo,18.04082,-67.1893479,-1
+75,Puma Miradero 59,Mayagüez,18.2292876,-67.1363699,92.7
+76,TotalEnergies Sábalos,Mayagüez,18.1773946,-67.1516901,93.7
+77,MOBIL Petroleum,Hormigueros,18.1352532,-67.1242913,92.7
+78,Texaco,Lajas,18.0481062,-67.0591689,93.7
+79,Puma Energy,San Germán,18.1049041,-67.0496605,92.7
+80,VP Racing Fuels San Germán,San Germán,18.0937206,-67.0323254,-1
+81,TotalEnergies Sabana Yegua,Lajas,18.0524818,-67.0584386,93.7
+82,Ultra Top Fuel - Mayagüez Mall,Hormigueros,18.1533352,-67.1416988,92.7
+83,Puma,Mayagüez,18.2059542,-67.1482156,92.7
+84,Puma,San Germán,18.0810894,-67.0398623,92.7
+85,Top Fuel,San Germán,18.0930486,-67.071167,92.7
+86,Omar Service Station,Lajas,18.0471693,-67.0686964,-1
+87,Garaje Gulf,Lajas,18.060343,-67.054043,91.7
+88,TotalEnergies Joyuda,Cabo Rojo,18.1154642,-67.182309,93.7
+89,Gulf Combate,Cabo Rojo,17.9820232,-67.1845614,91.7
+90,GULF-San German Service Station,San Germán,18.1048722,-67.058951,91.7
+91,Puma,Mayagüez,18.2060055,-67.1298431,92.7
+92,Cumberland Farms,Mayagüez,18.1843614,-67.143346,-1
+93,TotalEnergies Combate,Cabo Rojo,17.988692,-67.1694869,93.7
+94,Puma 909,Cabo Rojo,18.0660449,-67.1525124,92.7
+95,Rapid Oil Change Cabo Rojo,Cabo Rojo,18.1009211,-67.1575885,-1
+96,Ecomaxx,Lajas,18.0097416,-67.0702481,93.7
+97,Texaco Gas Station,Lajas,18.0068404,-67.0496152,93.7
+98,Ultra Top Fuel - Antigua Calle Post (Mayagüez),Mayagüez,18.1940467,-67.1426369,92.7
+99,Ultra Top Fuel,Cabo Rojo,18.0940034,-67.1727889,92.7
+100,Gulf Cabo Rojo RG,Cabo Rojo,18.0885571,-67.138792,91.7
+101,Gasolinera Gulf,Cabo Rojo,18.1047865,-67.1588773,92.7
+102,ULTRA TOP FUEL-HORMIGUEROS Service Station,Hormigueros,18.1213292,-67.0873891,92.7
+103,Naranjales Service Station,Mayagüez,18.2084598,-67.058262,-1
+104,"American Gasoline Balboa, Mayaguez",Mayagüez,18.2080983,-67.1248729,92.7
+105,Texaco,San Germán,18.0824203,-67.0503444,93.7
+106,Ultra Top Fuel,Mayagüez,18.1617799,-67.1495828,92.7
+107,Shell,Mayagüez,18.2018241,-67.1424042,93.7
+108,Shell,Mayagüez,18.2003753,-67.1483578,93.7
+109,Total Gas Station,Lajas,18.0429597,-67.0585071,93.7
+110,Mobil-San German Gas Station P.R,San Germán,18.0795873,-67.0095278,92.7
+111,GO GAS STATION INC,Hormigueros,18.153212,-67.1418,-1
+112,Texaco 939,Mayagüez,18.194793,-67.142765,93.7
+113,Doggie Gas,Cabo Rojo,18.0266755,-67.1749012,-1
+114,SVS Gas Station,Mayagüez,18.2409877,-67.1601869,-1
+115,"American Gasoline Post, Mayaguez",Mayagüez,18.1910232,-67.1433737,92.7
+116,Ultra Top Fuel Los Llanos,Lajas,18.0294354,-67.1092564,92.7
+117,RE FUEL STORE LLC,Hormigueros,18.1212916,-67.0874115,-1
+118,Gulf Gas Station,Mayagüez,18.1831487,-67.1433007,91.7
+119,Texaco Gas Station,Aguada,18.3693238,-67.1617288,93.7
+120,Ultra Top Fuel,Añasco,18.2995912,-67.1565643,92.7
+121,Gulf Self Service Station,Aguadilla,18.4528076,-67.0937982,91.7
+122,TotalEnergies Gate 5,Aguadilla,18.501954,-67.121375,93.7
+123,Gulf,Moca,18.3954736,-67.1104135,91.7
+124,TotalEnergies Barrio Aguacate,Aguadilla,18.4839381,-67.1109912,93.7
+125,Centro Gas Hiram Inc.Planta,Aguada,18.3625088,-67.1618284,-1
+126,Messer Gas,Aguadilla,18.4470237,-67.1097318,-1
+127,Jobos Gas,Isabela,18.4996884,-67.0720509,-1
+128,CAPA GAS TIRE,Moca,18.3671648,-67.0426096,-1
+129,PUERTO RICO GAS ENERGY,Aguada,18.3800393,-67.1884219,-1
+130,TotalEnergies Barrio Voladora,Moca,18.3804154,-67.090907,93.7
+131,Ecomaxx Moca Urbano,Moca,18.3938174,-67.1113012,93.7
+132,Crespo's Gas,Añasco,18.3012544,-67.1440514,-1
+133,Gas WLA Inc.,Moca,18.3961365,-67.126267,-1
+134,Light Gas Aguada,Aguada,18.3705402,-67.1637471,-1
+135,Centro de distribucion de Gas Propano,Aguadilla,18.4480983,-67.1089865,-1
+136,Rodriguez gas,Aguadilla,18.4897996,-67.0986342,-1
+137,Tropi gas,Isabela,18.4716179,-67.0031748,-1
+138,Ivan Gas,Aguadilla,18.4611148,-67.1243466,-1
+139,Gulf Bajuras Convenience Store,Isabela,18.5124935,-67.0864999,91.7
+140,Ecomaxx,Isabela,18.5000007,-67.025303,93.7
+141,TotalEnergies Arenales,Isabela,18.451815,-67.034442,93.7
+142,Garage Chory,Moca,18.3953743,-67.0970326,-1
+143,Ecomaxx | Chris Racing Station,Aguada,18.3319661,-67.1563688,93.7
+144,Mobil - Gas Station,San Sebastián,18.3497456,-67.0288147,92.7
+145,TotalEnergies La Victoria,Aguadilla,18.4100672,-67.1531629,93.7
+146,American Mini Market,Aguadilla,18.458393,-67.1499154,-1
+147,Mobil - Gas Station,Aguadilla,18.4018506,-67.1476935,92.7
+148,Gasolinera Ecomaxx Aguadilla,Aguadilla,18.4079409,-67.1544752,92.7
+149,Mobil - Gas Station,San Sebastián,18.3045129,-67.0214585,92.7
+150,Ecomaxx Gas Station,Aguada,18.3343464,-67.1328643,93.7
+151,La Curva,Moca,18.3339673,-67.0569091,-1
+152,Hato arriba Gas Station (Ultra),Moca,18.3740006,-67.0545065,-1
+153,Ecomaxx,Aguadilla,18.4392214,-67.1295779,93.7
+154,Sunoco Racing Distributir,Aguada,18.3320801,-67.1565223,-1
+155,Carrillo Service Station - Garaje de Lucas,Aguadilla,18.4506818,-67.0988534,-1
+156,Puma 106,Aguadilla,18.4485213,-67.1055519,92.7
+157,Toral,Isabela,18.4790701,-67.0302912,93.7
+158,TotalEnergies Barrio Corrales,Aguadilla,18.4632472,-67.1259124,93.7
+159,TotalEnergies Guayabo,Isabela,18.4926773,-67.006755,93.7
+160,Ultra Top Fuel,Moca,18.3967147,-67.1156579,92.7
+161,TotalEnergies 65 de Infantería,Añasco,18.2812814,-67.1443052,93.7
+162,AGM Service Station,Aguadilla,18.4558416,-67.0786929,-1
+163,CHELOS GAS 1,Moca,18.3969196,-67.1157756,-1
+164,Mobil - Gas Station,Aguadilla,18.4574579,-67.0730904,92.7
+165,Puma Gas Station - Gasolinera Puma,Añasco,18.2905634,-67.140371,92.7
+166,Sandlow Service Station,Isabela,18.4716249,-67.0089719,-1
+167,Puma,Añasco,18.3139914,-67.1490296,92.7
+168,RL Gas Station,Moca,18.3876875,-67.0381875,-1
+169,Gulf Top Fuels S/S,Isabela,18.4611102,-67.0546622,91.7
+170,Shell,Aguada,18.3348712,-67.1570725,93.7
+171,Shell,Aguadilla,18.4968708,-67.10032,93.7
+172,Ultra Top Fuel,Aguadilla,18.4795461,-67.1153276,92.7
+173,Estación de Gasolina,Aguadilla,18.4968927,-67.1003304,92.7
+174,Ultra Top Fuel,Aguadilla,18.4461751,-67.1138035,92.7
+175,Mobil - Gas Station,Aguadilla,18.4415354,-67.1403795,92.7
+176,Gas Station,Isabela,18.5002668,-67.0254385,-1
+177,Gulf,Añasco,18.2775404,-67.1275431,91.7
+178,Gulf,Isabela,18.4879971,-67.0487901,91.7
+179,Mobil - Gas Station,Aguadilla,18.454219,-67.1540027,92.7
+180,American Gasoline,Isabela,18.4997374,-67.071527,92.7
+181,FEMA GAS STATION,Aguadilla,18.4950451,-67.1414448,-1
+182,Shell Gas Station/To Go Market,Aguadilla,18.4694767,-67.152948,93.7
+183,Texaco,Aguadilla,18.4402713,-67.1261872,93.7
+184,Coast Guard Exchange Gas Station,Aguadilla,18.5019008,-67.1382592,-1
+185,Phillips 66,Aguadilla,18.4780449,-67.1511462,91.7
+186,Gulf Aguadilla Progreso,Aguadilla,18.4220419,-67.1540859,91.7
+187,American Gasoline Aguadilla #2,Aguadilla,18.4583506,-67.1498487,92.7
+188,Texaco Gas 110,Aguadilla,18.5036349,-67.1160696,93.7
+189,American Gasoline Aguadilla #1,Aguadilla,18.4711313,-67.1231654,92.7
+190,Puma Gas Station,Aguadilla,18.4780312,-67.1511502,92.7
+191,Gulf,Aguadilla,18.487984,-67.0992371,91.7
+192,Mobil - Gas Station,Yauco,18.0195944,-66.8421291,92.7
+193,Ecomaxx Gas Station,Guayanilla,18.0339135,-66.8014646,93.7
+194,GULF-ESDRAS Full Self Service Station,Ponce,18.0225296,-66.640631,91.7
+195,Cabo Rojo Gas,Yauco,18.0241326,-66.8791561,-1
+196,Puma Gas Station - Gasolinera Puma,Ponce,18.0101928,-66.624178,92.7
+197,Puma Gas Station - Gasolinera Puma,Ponce,18.0037928,-66.6207746,92.7
+198,Mobil - Gas Station,Sabana Grande,18.0767392,-66.9604277,92.7
+199,Juliancito Gas Services,Yauco,18.0306829,-66.8349053,-1
+200,Liquilux Playa Ponce,Ponce,17.9718516,-66.6136925,-1
+201,Empire Gas Rio Chiquito,Ponce,18.0464604,-66.610335,-1
+202,Mobil - Gas Station,Jayuya,18.2147536,-66.6168548,92.7
+203,Peerless Oil & Chemicals,Peñuelas,18.0319086,-66.7340635,-1
+204,Gas Station,San Sebastián,18.312821,-66.9264408,-1
+205,Gulf Charlie Gas Station,Lares,18.3159066,-66.878152,91.7
+206,Shell,Utuado,18.268405,-66.7115891,93.7
+207,Octavio Gas,Utuado,18.2666887,-66.7033128,-1
+208,Empire Gas Peñuelas,Peñuelas,18.0013918,-66.7247313,-1
+209,Gas Station,Jayuya,18.2075985,-66.560429,-1
+210,EcoEléctrica Natural Gas Power Plant,Peñuelas,17.9809875,-66.7553284,-1
+211,maXXan,Guayanilla,18.0612729,-66.7813015,-1
+212,Gulf,Jayuya,18.2182072,-66.5942385,91.7
+213,Puma | Plaza del Caribe,Ponce,17.9909927,-66.6098144,92.7
+214,Liquilux Guayanilla,Guayanilla,18.0340391,-66.8120255,-1
+215,Utuado Gas Station,Utuado,18.265264,-66.6954988,-1
+216,Ecomaxx La Colectiva,Guayanilla,18.0494422,-66.7806765,93.7
+217,Mobil - Gas Station,Adjuntas,18.1669003,-66.7300311,92.7
+218,TotalEnergies Muñoz Rivera 702,Peñuelas,18.0581394,-66.7221822,93.7
+219,Brothers Gas Station,Jayuya,18.1589633,-66.6493475,-1
+220,PSS,Yauco,18.0485451,-66.8644539,-1
+221,Ecomaxx,Yauco,18.0348871,-66.8737686,93.7
+222,Puma Gas Station - Gasolinera Puma,Ponce,18.0163477,-66.6121212,92.7
+223,Mobil - Gas Station,Ponce,17.997254,-66.6307047,92.7
+224,Cabo Rojo Gas,Guayanilla,18.0177814,-66.7911148,-1
+225,Ulta Top Fuel Gas Station,Yauco,18.0404658,-66.8609245,92.7
+226,Gulf Gas Station,Adjuntas,18.1634194,-66.7273061,91.7
+227,Puma Gas Station - Gasolinera Puma,Ponce,18.006906,-66.6008073,92.7
+228,TotalEnergies Calle Luna,Sabana Grande,18.0797255,-66.9734328,93.7
+229,Sam's Club Gas Station,Ponce,17.995561,-66.629432,-1
+230,ECOMAXX,Ponce,18.0204059,-66.6408056,93.7
+231,TotalEnergies Adolfo Grana,Peñuelas,18.0527482,-66.7213664,93.7
+232,PUMA 600 Caobos Gas Station Ponce PR,Ponce,18.0053188,-66.5854348,92.7
+233,Mobil - Gas Station,Ponce,18.0106419,-66.6144396,92.7
+234,Gulf,Ponce,18.0138844,-66.6178399,91.7
+235,TotalEnergies Las Delicias,Ponce,18.0316645,-66.6416656,93.7
+236,Mobil - Gas Station,Sabana Grande,18.0696447,-66.9585865,92.7
+237,Mobil - Gas Station,Ponce,18.0115913,-66.6333354,92.7
+238,Texaco 622,Sabana Grande,18.0787732,-66.9665354,93.7
+239,Mobil - Gas Station,Peñuelas,18.0514398,-66.7210847,92.7
+240,Gulf | Hernández Service Station,Ponce,17.9989731,-66.6272277,91.7
+241,Peerless Oil & Chemicals Inc,Peñuelas,17.9944608,-66.7414887,-1
+242,TotalEnergies El Cafetal,Yauco,18.0401416,-66.8583777,93.7
+243,E L Service Station,Ponce,18.026886,-66.6586775,-1
+244,Mobil - Gas Station,Ponce,17.9985169,-66.6337309,92.7
+245,Puma,Sabana Grande,18.044012,-66.9502383,92.7
+246,Puma Gas Station 623,Sabana Grande,18.0739853,-66.9525756,92.7
+247,"American Gasoline Victoria, Ponce",Ponce,18.0122924,-66.6284836,92.7
+248,W Y W 11 INC. TOTAL 25 JULIO,Yauco,18.0308023,-66.8549988,93.7
+249,TotalEnergies 25 De Julio,Yauco,18.0308211,-66.8551877,93.7
+250,Gulf Service Station (JUPPER),Peñuelas,18.0553504,-66.7217103,91.7
+251,TotalEnergies Cuatro Calles,Yauco,18.0187923,-66.8716842,93.7
+252,Ecomaxx,Peñuelas,17.9860187,-66.7089675,93.7
+253,Mobil - Gas Station,Guayanilla,18.0194204,-66.7886105,92.7
+254,Mecanico A Domicilio Rodriguez,Guayanilla,17.996059,-66.818252,-1
+255,Puma Energy 844,Guayanilla,18.0219021,-66.7923333,92.7
+256,JJ Gas Station,Yauco,18.0331414,-66.8518542,-1
+257,Gasolinera Puma,Yauco,18.0232063,-66.8533234,92.7
+258,EcoMaxx,Lajas,17.9936792,-66.9737737,93.7
+259,TEXACO,Cabo Rojo,18.027733,-67.1629158,93.7
+260,TotalEnergies Muñoz Rivera,Guayanilla,18.0186348,-66.7913366,93.7
+261,Empire Planta Guanica,Guánica,17.972608,-66.9040341,-1
+262,Puma Gas Station,Yauco,18.0232422,-66.8532852,92.7
+263,Arenas Service Station,Guánica,18.022159,-66.905749,-1
+264,Total,Yauco,18.0187575,-66.8716711,93.7
+265,Gulf,Yauco,18.032795,-66.8520367,91.7
+266,Ultra Top Fuel,Guánica,17.9742263,-66.9075148,92.7
+267,Muelle Rafy Corales,Lajas,17.9734264,-67.0392674,-1
+268,TotalEnergies Guánica,Guánica,17.9763984,-66.907503,93.7
+269,Gulf | Tallaboa Service Station,Peñuelas,17.9906282,-66.7150572,91.7
+270,Cabo Rojo Gas,Guánica,17.9736501,-66.9079577,-1
+271,Texaco Gas Station - Gasolinera Texaco,Guayanilla,18.0159754,-66.7756031,92.7
+272,Puma,Guánica,17.9952081,-66.8919781,92.7
+273,Empire Gas,Guánica,17.9716332,-66.905207,-1
+274,L.J Oquendo Gas,,18.0847805,-66.6205466,-1
+275,Castillo gas service,,18.031829,-66.5590664,-1
+276,Freddy Gas,Aibonito,18.1383901,-66.2714822,-1
+277,Guillo Gas,Barranquitas,18.213622,-66.2895236,-1
+278,Empire Gas Aibonito,Aibonito,18.1384546,-66.2917466,-1
+279,Sopero by Gas Bar,Ponce,18.0071259,-66.6009329,-1
+280,Empire Gas Orocovis,Orocovis,18.2190963,-66.3726505,-1
+281,Muebleria Cheito Gas,Coamo,18.0765228,-66.3622513,-1
+282,Cordova Gas,Dorado,18.4596501,-66.2651105,-1
+283,Water For Gas,Ponce,18.0186151,-66.6147793,-1
+284,Económico Auto Parts,Santa Isabel,18.0224258,-66.3703279,-1
+285,Santurce Gas,Carolina,18.3781866,-65.9368998,-1
+286,Shell Villa Prades,San Juan,18.4051568,-66.0195048,93.7
+287,Sam's Club Gas Station,Caguas,18.2490787,-66.0240282,-1
+288,Puma Villa Nevárez 179,San Juan,18.4001388,-66.0660703,92.7
+289,Lijas Gas,Las Piedras,18.2280134,-65.8589042,-1
+290,Gas Ideal,Bayamón,18.4175619,-66.1375203,-1
+291,Tu Gas Amigo Inc.,Bayamón,18.375554,-66.148609,-1
+292,MR.GAS,Toa Baja,18.4162337,-66.2007199,-1
+293,Empire Gas Cayey,Cayey,18.093101,-66.176626,-1
+294,Empire Gas,Salinas,18.0151926,-66.2560136,-1
+295,ATM $ Gas station,Aibonito,18.1243509,-66.293121,-1
+296,Empire Gas,Naranjito,18.2458229,-66.2765808,-1
+297,Junior Gas,Cidra,18.1761829,-66.1616293,-1
+298,Santa Juanita Gas,Bayamón,18.3668304,-66.1625391,-1
+299,Liquilux Gas - Bayamón,Bayamón,18.409151,-66.1468811,-1
+300,Gas bar urban cuisine,Ponce,18.025445,-66.6568805,-1
+301,Empresas Alexander Gas,Juana Díaz,18.0438481,-66.5342196,-1
+302,Tropigas Barranquitas,Barranquitas,18.168208,-66.3558471,-1
+303,Messer Gas,Ponce,18.0055427,-66.5949783,-1
+304,RT TIRE CENTER,Barranquitas,18.1894368,-66.3474923,-1
+305,SHELL,Coamo,18.1651907,-66.405929,93.7
+306,Empire Gas Villalba,Villalba,18.0952913,-66.5073431,-1
+307,Tropigas,Coamo,18.0583897,-66.3674084,-1
+308,Los Llanos Service Station Car wash,Coamo,18.0515899,-66.4097681,-1
+309,Shell Santa Maria,Ponce,18.0042875,-66.6207628,93.7
+310,Shufat Gas Station,Vega Baja,18.4454117,-66.3757722,-1
+311,Mobil - Gas Station,Caguas,18.2246597,-66.0378733,92.7
+312,Perez Gas,Juncos,18.2282869,-65.9226128,-1
+313,Empire Gas Coamo,Coamo,18.0817465,-66.3853349,-1
+314,Phillips 66,Ponce,18.0475789,-66.558262,91.7
+315,Mobil,San Juan,18.4174809,-66.0669778,92.7
+316,Gulf Service Station,Ponce,18.0475004,-66.5582888,91.7
+317,Ecomaxx - Ponce Villa,Ponce,18.0103063,-66.6181601,93.7
+318,Villa Los Pescadores Puma Gas Station,Vega Baja,18.4831982,-66.4209574,92.7
+319,ATM at Puma Gas Station,Vega Baja,18.487654,-66.4114037,92.7
+320,Petro West Arecibo,Arecibo,18.4319171,-66.5994491,-1
+321,GOMERA YONSUE,San Sebastián,18.3563884,-67.0021455,-1
+322,TotalEnergies Las Patriotas,Lares,18.2978151,-66.8740328,93.7
+323,Garage Puma La Piramide 577,Arecibo,18.4469196,-66.6815987,92.7
+324,Puma,Lares,18.3324983,-66.8501997,92.7
+325,Puma 499,Manatí,18.4474291,-66.4986023,92.7
+326,MOBIL - Gas Station,Caguas,18.2187915,-66.0438672,92.7
+327,Garaje Machin Gas,Trujillo Alto,18.321064,-66.004625,-1
+328,Ultima Parada Gas Station,San Juan,18.4447922,-66.0706729,-1
+329,Total gas station Bo Zanja,Camuy,18.4591208,-66.8532889,93.7
+330,RICO GAS,Arecibo,18.4696796,-66.7156631,-1
+331,Puma Gas Station #318,Gurabo,18.2541749,-65.9706782,92.7
+332,Super Gas,Bayamón,18.3673919,-66.1626385,-1
+333,TotalEnergies Barrio Capaez,Adjuntas,18.184739,-66.745988,93.7
+334,Mobil - Gas Station,Lares,18.291247,-66.884703,92.7
+335,San Antonio Shell # 3,Cidra,18.1698611,-66.1606704,93.7
+336,TotalEnergies Barrio Coto Norte,Manatí,18.43218,-66.4769564,93.7
+337,Paloma Gas Station & Sport Bar,Barranquitas,18.2392681,-66.2680787,-1
+338,Mobil - Gas Station,Orocovis,18.2279466,-66.3905002,92.7
+339,Mobil - Gas Station,Bayamón,18.3565624,-66.1655293,92.7
+340,ECOMAXX CEIBA GAS,Cidra,18.1923019,-66.1692553,93.7
+341,Mobil - Gas Station,Aibonito,18.139906,-66.2677639,92.7
+342,Mobil - Gas Station,Bayamón,18.3703694,-66.1963966,92.7
+343,Margaro Gas Fluido,Cidra,18.1369081,-66.1366696,-1
+344,Contorno Gas Station,Toa Alta,18.3680429,-66.2619127,-1
+345,Sam's Club Gas Station,Bayamón,18.4121788,-66.1610471,-1
+346,Puma Gas Station 259,Vega Alta,18.4131748,-66.3172585,92.7
+347,La Cuchilla Service Station Bar & Grill,Orocovis,18.1655194,-66.4058306,-1
+348,TotalEnergies Avenida Central - GAS Inc.,San Juan,18.4074101,-66.0598289,93.7
+349,TotalEnergies Las Flores,Coamo,18.0479706,-66.3635849,93.7
+350,Shell,Toa Baja,18.4543911,-66.1876903,93.7
+351,Mobil,Caguas,18.2365575,-66.0323705,92.7
+352,Gasolinera Puma 799,Juana Díaz,18.046546,-66.4674635,92.7
+353,Ecomaxx E.M. BROTHERS,Jayuya,18.1589551,-66.6492563,93.7
+354,Canteras Shell,Ponce,18.0206912,-66.6121808,93.7
+355,Any Time Gas Río Cañas,Caguas,18.2887307,-66.0448432,-1
+356,EUREKA GAS STATION,Las Piedras,18.1800526,-65.8633781,-1
+357,Shell,San Juan,18.3785226,-66.0508789,93.7
+358,Puma 178,Ponce,17.9992293,-66.6142034,92.7
+359,Mobil - Gas Station,Santa Isabel,18.013228,-66.3840133,92.7
+360,Puma 867,Villalba,18.1280398,-66.4891747,92.7
+361,Mobil - Gas Station,San Juan,18.4325667,-66.0588588,92.7
+362,Ecomaxx,Juana Díaz,17.995907,-66.4969301,93.7
+363,Puma Núm. 474,Ponce,17.9962605,-66.6214431,92.7
+364,Puma Villa del Carmen #859,Ponce,17.9777174,-66.6099706,92.7
+365,MOBIL - Gas Station,Ponce,18.0389519,-66.5487737,92.7
+366,TotalEnergies Barrio Florida,Santa Isabel,17.9648086,-66.3992678,93.7
+367,VIP auto wash,Ponce,18.0138931,-66.5492297,-1
+368,Ecomaxx,Ponce,18.0142638,-66.6183043,93.7
+369,TotalEnergies El Monte,Ponce,18.0416974,-66.5760272,93.7
+370,TotalEnergies Juana Díaz,Juana Díaz,18.0507808,-66.5055779,93.7
+371,Ecomaxx Arecibo Dyno Gas,Arecibo,18.4806091,-66.7635046,93.7
+372,TotalEnergies Vista Azul,Arecibo,18.4783323,-66.7580742,93.7
+373,Camarero Service Station,Quebradillas,18.474227,-66.9385888,-1
+374,IMPERIAL GAS STATION/ GARAJE TOTAL,Santa Isabel,17.9644051,-66.3993036,93.7
+375,Gasio Gasolinera Gulf La Victoria,Ponce,18.0119918,-66.6320824,92.7
+376,MOBIL - Gas Station,Hatillo,18.396964,-66.785217,92.7
+377,MOBIL - Gas Station,Hatillo,18.3971778,-66.7853726,92.7
+378,TotalEnergies Piedras Blancas,San Sebastián,18.332485,-66.986633,93.7
+379,Mobil - Gas Station,Hatillo,18.458923,-66.7726992,92.7
+380,MOBIL - Gas Station,Manatí,18.4343371,-66.4708821,92.7
+381,Texaco,Vega Baja,18.432089,-66.4283693,93.7
+382,Mobil - Gas Station,Quebradillas,18.4826342,-66.9412008,92.7
+383,TotalEnergies Barrio Pugnado,Vega Baja,18.3853937,-66.4230794,93.7
+384,Mobil - Gas Station,Arecibo,18.4723676,-66.7248195,92.7
+385,TotalEnergies Algarrobo,Vega Baja,18.4438102,-66.4149783,93.7
+386,Gulf Talin,Arecibo,18.4473435,-66.676025,91.7
+387,Clark Gas Station,San Sebastián,18.3332708,-66.9884013,-1
+388,MOBIL - Gas Station,Bayamón,18.3608276,-66.1594106,92.7
+389,Mobil fuel station,Cayey,18.0961682,-66.2236785,92.7
+390,Planas Gas Station & Mini Market,Isabela,18.3862287,-66.9711596,-1
+391,Gulf - de la cuatro ( mega gas ),Cayey,18.1157923,-66.1719528,91.7
+392,Shell,Bayamón,18.3738852,-66.18815,93.7
+393,Mobil - Gas Station,Bayamón,18.3801708,-66.1518208,92.7
+394,Plaza Marina Gas Station & Mini Market,Juncos,18.2400326,-65.8973139,-1
+395,Puma Gas Station 173,Carolina,18.425583,-65.9886289,92.7
+396,Any Time Gas Station,Carolina,18.3996667,-65.9673519,-1
+397,Puma Gas Station #69,San Juan,18.3614712,-66.0415812,92.7
+398,Antorcha Gas,Trujillo Alto,18.3482234,-66.0348527,-1
+399,Puma Gas,Vega Baja,18.4465815,-66.3942097,92.7
+400,Puma Energy,Bayamón,18.424184,-66.1643936,92.7
+401,Mobil - Gas Station,Coamo,18.051599,-66.4097893,92.7
+402,Mobil,Carolina,18.4456037,-66.033052,92.7
+403,Puma Gas Station - Gasolinera Puma,San Juan,18.416814,-66.0482973,92.7
+404,MOBIL - Gas Station,Santa Isabel,18.0102135,-66.3836884,92.7
+405,Puma Gas Station 371,Carolina,18.416904,-66.0031604,92.7
+406,"To Go Stores #60, Ponce Ceiba",Ponce,18.0100159,-66.6092112,-1
+407,Mobil - Gas Station,Ponce,18.0245143,-66.6006081,92.7
+408,ULTRA TOP FUEL Samuel Punto Oro Station PR-2,Ponce,17.9902634,-66.6462063,92.7
+409,TotalEnergies Tierra Santa,Villalba,18.1233032,-66.5016623,93.7
+410,Gulf Juliana Service Station,Ponce,18.014026,-66.6179804,91.7
+411,ULTRA TOP FUEL-Av.Hostos 964,Ponce,17.9896486,-66.6171338,92.7
+412,Gulf,Barceloneta,18.4348448,-66.5475808,91.7
+413,Mobil - Gas Station,Hatillo,18.3614718,-66.8025931,92.7
+414,Puma 852,Juana Díaz,17.9916999,-66.4840459,92.7
+415,Toral Gas Station To Go,Lares,18.2938464,-66.8764028,93.7
+416,Gasolinera Puma,Camuy,18.471815,-66.8539672,92.7
+417,Gasolinera Ultra Top Fuel,Hatillo,18.4134618,-66.7724773,92.7
+418,Torrado Gas Station,Hatillo,18.4417395,-66.7990305,-1
+419,TotalEnergies San Antonio,Coamo,18.0795023,-66.371879,93.7
+420,Mobil,Juana Díaz,18.4311093,-66.4891299,92.7
+421,Mobil - Gas Station,Coamo,18.0730583,-66.3620997,92.7
+422,Zayas Gas station,Coamo,18.0802908,-66.3557121,-1
+423,TotalEnergies 4 Calles,Ponce,18.006329,-66.596734,93.7
+424,Gasolineria Puma Energy Gas Station,Juana Díaz,18.0532368,-66.5352539,92.7
+425,Gulf - La Rambla,Ponce,18.0280194,-66.5973223,91.7
+426,Puma Gas Station - Gasolinera Puma,Arecibo,18.4477911,-66.7506879,92.7
+427,Medina Auto Parts & Gas Station,San Sebastián,18.3735877,-66.9646096,-1
+428,Xtreme Gas Station,Lares,18.2381457,-66.9102433,-1
+429,Shell,Coamo,18.0763143,-66.3410275,93.7
+430,Puma Gas Station 253,Cidra,18.1794534,-66.1610647,92.7
+431,Gulf La Virgencita,Toa Baja,18.4107632,-66.2554738,91.7
+432,El Verde Gas Station,Comerío,18.2302778,-66.1764844,-1
+433,Mobil - Gas Station,Hatillo,18.482288,-66.8228211,92.7
+434,Mobil - Gas Station,Barceloneta,18.434419,-66.5489271,92.7
+435,Puma Gas 567,Barceloneta,18.4320273,-66.5604148,92.7
+436,Puma Gas Station #300,Naranjito,18.3027505,-66.2345492,92.7
+437,Shell,Dorado,18.4057647,-66.2992317,93.7
+438,"American Gasoline Betances, Vega Alta",Vega Alta,18.4122827,-66.3288467,92.7
+439,Texaco Gas Station / Subway 489,Bayamón,18.3824286,-66.143156,93.7
+440,Gulf Gas Station,Vega Alta,18.4135095,-66.3074875,91.7
+441,Shell,Arecibo,18.4737771,-66.7439771,93.7
+442,Puma Gas Station 336,Naranjito,18.2456706,-66.2786126,92.7
+443,Mobil - Gas Station,Quebradillas,18.4440072,-66.9193499,92.7
+444,Puma Gas 504,Arecibo,18.4635855,-66.7543137,92.7
+445,Gulf,Hatillo,18.3501032,-66.8150114,91.7
+446,TotalEnergies Yeguada,Camuy,18.4647946,-66.887371,93.7
+447,Texaco,Quebradillas,18.464151,-66.9279785,93.7
+448,Gulf Pastillo Juana Diaz,Juana Díaz,17.9960507,-66.496361,91.7
+449,Puma Super 7 Urbanización Glenview Gardens,Ponce,18.0426224,-66.5909394,92.7
+450,Puma Gas Station - Gasolinera Puma,San Juan,18.3750622,-66.0660448,92.7
+451,TotalEnergies Guayabal,Juana Díaz,18.0777295,-66.4976653,93.7
+452,TotalEnergies Avenida Roosevelt,San Juan,18.4163667,-66.0788942,93.7
+453,Puma Gas Station - Gasolinera Puma,Guaynabo,18.3544791,-66.1111518,92.7
+454,Mobil - Gas Station,Ponce,18.0205857,-66.6121514,92.7
+455,GULF-Juana Diaz Hernandez Station,Juana Díaz,18.0521336,-66.5095769,91.7
+456,Ecomaxx,Ponce,18.0067071,-66.5876231,93.7
+457,Shell,Ponce,18.0049196,-66.6277356,93.7
+458,Puma Energy No. 174,Guaynabo,18.4297014,-66.1134401,92.7
+459,A & E Service Station,Ponce,18.021054,-66.611982,-1
+460,TotalEnergies Mercedita,Ponce,18.0063072,-66.5966655,93.7
+461,Puma Gas Station,San Juan,18.3979513,-66.0318882,92.7
+462,king services STATION PLAYA,Ponce,17.9825685,-66.6227671,-1
+463,Gulf,Santa Isabel,17.967231,-66.3709733,91.7
+464,Puma Gas Station - Gasolinera Puma,Guaynabo,18.3710561,-66.1003848,92.7
+465,Ecomaxx Gas Station Manatí,Barceloneta,18.4291032,-66.5227321,93.7
+466,Atenas Gas,Vega Baja,18.4383385,-66.4380544,-1
+467,Texaco,Juana Díaz,18.0615852,-66.5068551,93.7
+468,MOBIL - Gas Station,Arecibo,18.4680336,-66.7192779,92.7
+469,Garage Gulf Ave.Hostos,Ponce,17.9975182,-66.614061,91.7
+470,Mobil,Juana Díaz,18.0521373,-66.5087985,92.7
+471,Ultra Top Fuel Soto Gas Station,San Sebastián,18.3238528,-66.9997029,92.7
+472,Gas Station,Ciales,18.3384455,-66.4684459,-1
+473,Sánchez Gas Station,Bayamón,18.3267854,-66.1839269,-1
+474,Gas Station,Bayamón,18.3231459,-66.1423426,-1
+475,Texaco Gas Station - Gasolinera Texaco (Antiguo Puma Gas Station),Toa Alta,18.3727041,-66.2102849,92.7
+476,Toral Gas Station,Vega Alta,18.4141234,-66.3141615,93.7
+477,Gulf Gas Station and Mini Market,Corozal,18.2679883,-66.3449325,91.7
+478,Puma Gas Station 453,Bayamón,18.4059812,-66.1920483,92.7
+479,Uno Gas Station,Bayamón,18.4156787,-66.1441762,-1
+480,Mega Gas Station,Naranjito,18.2953094,-66.2126091,-1
+481,Puma Gas Station - Gasolinera Puma,San Juan,18.3629836,-66.0539893,92.7
+482,Puma Gas Station,Guayama,17.9762514,-66.120161,92.7
+483,Puma Gas Station #10,San Juan,18.3941952,-66.0801174,92.7
+484,Gulf,Maunabo,18.0074588,-65.9017662,91.7
+485,Clark Gas Station,Juncos,18.2207998,-65.9120089,-1
+486,Gulf Gas Station,Guayama,17.9902442,-66.1136976,91.7
+487,Puma Gas Station Nro. 268,San Juan,18.396086,-66.0537274,92.7
+488,Texaco Gas Station,Carolina,18.3876426,-65.9529682,93.7
+489,Puma Gas Station,Guaynabo,18.3903721,-66.1184236,92.7
+490,Mobil,San Juan,18.4517943,-66.0616943,92.7
+491,Puma Gas Station 379,Caguas,18.3014848,-66.0623721,92.7
+492,Aguas Buenas Gas Station & Mini Market,Aguas Buenas,18.2564712,-66.1025589,-1
+493,Mobil - Gas Station,Carolina,18.43146,-66.010903,92.7
+494,Puma Gas Station,San Juan,18.4483715,-66.0755763,92.7
+495,Total Gas Station,San Juan,18.3953012,-66.1017061,93.7
+496,Gas Station,San Juan,18.3289588,-66.0515401,-1
+497,Gulf Gas Station,Carolina,18.3703117,-65.9306885,91.7
+498,TotalEnergies Avenida Las Américas,Ponce,18.007644,-66.601094,93.7
+499,Mobil - Gas Station,Ponce,18.0065405,-66.5618844,92.7
+500,Texaco El Monte,Ponce,18.0410502,-66.5780626,93.7
+501,Puma,Bayamón,18.3979564,-66.1658505,92.7
+502,Gulf Gas Station Jobos,Guayama,17.96575,-66.190631,91.7
+503,Puma Energy,Bayamón,18.4046012,-66.1605333,92.7
+504,Gulf Gas Station,Salinas,17.9708947,-66.2448553,91.7
+505,Gulf,Isabela,18.4748042,-66.9919195,91.7
+506,Camuy Service Station,Camuy,18.4838532,-66.8406704,-1
+507,Gulf Express,Camuy,18.4458449,-66.8763207,91.7
+508,Gulf Gas Station,Hatillo,18.4691902,-66.8144126,91.7
+509,"American Gasoline Mercedita, Ponce",Ponce,18.0070443,-66.5636774,92.7
+510,Marrero Gas,Florida,18.353399,-66.5478215,-1
+511,Morovis Service Station,Morovis,18.3338199,-66.4083438,-1
+512,Mobil,Juana Díaz,18.0423438,-66.5090103,92.7
+513,Gulf,Manatí,18.4280516,-66.4981037,91.7
+514,Shell,Arecibo,18.4446762,-66.6507621,93.7
+515,Gulf Quebradilla Gas Station,Quebradillas,18.4579845,-66.9073981,91.7
+516,Gulf,Arecibo,18.4321316,-66.6797506,91.7
+517,Gulf Lord Gas Station,Arecibo,18.4674393,-66.7180189,91.7
+518,Arecibo Gas Station,Arecibo,18.4495804,-66.7390017,-1
+519,Gulf Torres Casanova,Barranquitas,18.1983749,-66.2957874,91.7
+520,Goring Gas,Arecibo,18.4209431,-66.7451486,-1
+521,Shell,Bayamón,18.3787448,-66.153228,93.7
+522,Route 66 gas station,Bayamón,18.3906438,-66.1685075,-1
+523,Ecomaxx | Eliasin Service Station,Orocovis,18.2299784,-66.3884316,93.7
+524,EcoMaxx Rincón,Cidra,18.1490139,-66.1634583,93.7
+525,Ecomaxx Express Gas,Juncos,18.2171639,-65.9098866,93.7
+526,Puma,San Lorenzo,18.1832415,-65.9746608,92.7
+527,Ecomaxx,Aibonito,18.1403392,-66.2627191,93.7
+528,Ecomaxx,Aibonito,18.1182596,-66.2394692,93.7
+529,Puma Villa Blanca,Caguas,18.2444095,-66.035943,92.7
+530,Beltran Central Service Station,Juncos,18.2440306,-65.9217037,-1
+531,Empresas de Gas,Bayamón,18.4087448,-66.1929702,-1
+532,Central Gas Product,Dorado,18.4061418,-66.3009293,-1
+533,Ecomaxx,Camuy,18.4717943,-66.8539665,93.7
+534,Servicio de Gas,Toa Baja,18.42871,-66.1807985,-1
+535,Light Gas Arecibo,Arecibo,18.4484837,-66.6723709,-1
+536,Shell,Toa Baja,18.4371047,-66.1668151,93.7
+537,Tropigas Arecibo,Arecibo,18.4470385,-66.6627981,-1
+538,INTERNATIONAL GAS SERVICE,Vega Baja,18.4330521,-66.4108246,-1
+539,Gas Dorado,Dorado,18.4402811,-66.268439,-1
+540,Messer Gas,Manatí,18.438919,-66.4514486,-1
+541,Empire Gas Camuy,Camuy,18.4798305,-66.8394496,-1
+542,Texaco gas station,Arecibo,18.4192166,-66.6105728,93.7
+543,Colon Sercive Statio Gulf Comerio,Comerío,18.2329103,-66.2144803,91.7
+544,Puma 177,Gurabo,18.2434132,-66.0085416,92.7
+545,Puma,Caguas,18.2346983,-66.038585,92.7
+546,Gas estacion,Gurabo,18.2460863,-65.9804163,-1
+547,TotalEnergies Barrio Rabanal,Cidra,18.1615853,-66.190377,93.7
+548,TotalEnergies Georgetti,Comerío,18.2219069,-66.2255927,93.7
+549,El 14 Service Station,San Lorenzo,18.107935,-65.9925492,-1
+550,Ecomaxx Cerro Gordo Service Station,San Lorenzo,18.1790496,-65.9596546,93.7
+551,Ecomaxx/ Base de Caguas,Caguas,18.2089914,-66.1006922,93.7
+552,TotalEnergies De Diego,San Lorenzo,18.1834992,-65.9589349,93.7
+553,Dorado Gas,Toa Baja,18.4406963,-66.2220232,-1
+554,Xpo Service,Arecibo,18.4579234,-66.6135158,-1
+555,Clark Gas Station,Vega Baja,18.4463623,-66.4030406,-1
+556,Leo Gas,Hatillo,18.4683525,-66.8059053,-1
+557,MOBIL - Gas Station,Camuy,18.4750522,-66.8479035,92.7
+558,Monte Bello Gas,Barceloneta,18.4304924,-66.5671615,-1
+559,TotalEnergies Centro,Vega Alta,18.4137325,-66.3284163,93.7
+560,Garaje La Cuesta Del Guama,Hatillo,18.4691902,-66.8144126,-1
+561,Puma,Manatí,18.4302445,-66.4932526,92.7
+562,TotalEnergies Barrio Naranjo,Hatillo,18.4417204,-66.7991005,93.7
+563,TotalEnergies Golden Hills,Dorado,18.4102752,-66.3031912,93.7
+564,Alturas Shell,Vega Baja,18.4357529,-66.4061694,93.7
+565,LS Tire Center,Santa Isabel,17.9781109,-66.3396258,-1
+566,J.O.R. HID's and LED's Projects,Santa Isabel,17.9725053,-66.4084625,-1
+567,Guayama Motors,Guayama,17.9640887,-66.1339721,-1
+568,Mobil - Gas Station,San Lorenzo,18.1901578,-65.962276,92.7
+569,Mobil - Gas Station,Aibonito,18.1297424,-66.2854594,92.7
+570,Puma 985,Juncos,18.2440503,-65.921638,92.7
+571,Puma 147 | Los Prados Service Station,Caguas,18.2392708,-66.0596165,92.7
+572,Puma Rio Abajo,Cidra,18.1761934,-66.1633711,92.7
+573,TotalEnergies Mariolga,Caguas,18.220637,-66.040396,93.7
+574,Puma 396,Caguas,18.208663,-66.1029409,92.7
+575,Total,Cayey,18.1148037,-66.1703211,93.7
+576,Rapito's mini market,Barceloneta,18.4541385,-66.568554,-1
+577,Gasolinera To Go Stores,Comerío,18.2161839,-66.224792,92.7
+578,Quique Service Station,Arecibo,18.4371852,-66.7450831,-1
+579,Cumberland Farms,Toa Baja,18.4200736,-66.2499659,-1
+580,Estación De Gasolina Puma 953,Arecibo,18.467416,-66.718915,92.7
+581,Puma,Arecibo,18.4719204,-66.7383643,92.7
+582,Auto Lube Xpress Inc. Toa Baja,Toa Baja,18.4534377,-66.186396,-1
+583,Mobil - Gas Station,Vega Baja,18.4466,-66.3875395,92.7
+584,Mobil - Gas Station,Arecibo,18.4731099,-66.742957,92.7
+585,"American Gasoline Sabana Hoyos, Vega Alta",Vega Alta,18.4350891,-66.3347354,92.7
+586,Gasolinera Boricua,Manatí,18.4246357,-66.486238,92.7
+587,Gasolina P J,Vega Baja,18.445345,-66.3972725,92.7
+588,TotalEnergies Barrio Islote,Arecibo,18.4904136,-66.6418335,93.7
+589,Gulf Salida 35,Vega Baja,18.4289502,-66.3717921,91.7
+590,Mobil - Gas Station,Manatí,18.4243444,-66.4781994,92.7
+591,Delgado Gas,Yabucoa,18.0460732,-65.8752001,-1
+592,Empire Gas Guayama,Guayama,18.0074433,-66.1097759,-1
+593,TotalEnergies Barrio Cacao Bajo,Patillas,18.001723,-66.012398,93.7
+594,Light Gas Corporation,Salinas,17.9956669,-66.2722486,-1
+595,Farmacia MF and Total Gas Station,Guayama,17.9565152,-66.1665418,93.7
+596,Mobil - Gas Station,Cidra,18.1768511,-66.1589468,92.7
+597,Generic Gas Station,Juncos,18.235855,-65.9228929,-1
+598,Puma 241,Caguas,18.2257885,-66.037659,92.7
+599,Gulf Cacho,Juncos,18.2285514,-65.9136289,91.7
+600,Ultra Top Fuel,Aguas Buenas,18.2321925,-66.1276913,92.7
+601,Texaco Montellano,Cayey,18.120581,-66.146965,93.7
+602,Mobil - Gas Station,Barranquitas,18.1826542,-66.318353,92.7
+603,Elena Gulf Service Station,Orocovis,18.2406279,-66.3976389,91.7
+604,Mobil - Gas Station,Guayama,18.0053388,-66.1140441,92.7
+605,Ecomaxx Patillas El Cerrito,Patillas,17.9946388,-66.0084161,93.7
+606,Mobil - Gas Station,Patillas,18.0054983,-66.0183613,92.7
+607,Puma No. 910,Hatillo,18.4842427,-66.8199049,92.7
+608,Pagan Mini Market & Service Station,Manatí,18.4391556,-66.4423701,-1
+609,TotalEnergies Miraflores,Arecibo,18.4226956,-66.647846,93.7
+610,American Petroleum,Toa Baja,18.4194226,-66.249752,-1
+611,Joas Service Station,Manatí,18.4266011,-66.4911216,-1
+612,TotalEnergies San Vicente,Vega Baja,18.4456654,-66.3777324,93.7
+613,TotalEnergies La Arena,Toa Baja,18.4173024,-66.1969259,93.7
+614,Total Energies,Manatí,18.4362694,-66.4630744,93.7
+615,TotalEnergies Montellano,Cayey,18.117358,-66.1448401,93.7
+616,American Gasoline Salinas,Salinas,18.0975499,-66.2275371,92.7
+617,Shell,Aibonito,18.124363,-66.2931397,93.7
+618,Puma 971,Barranquitas,18.2284839,-66.2890564,92.7
+619,Mobil - Gas Station,Caguas,18.202288,-66.0520005,92.7
+620,Mobil,Cayey,18.1219586,-66.1801258,92.7
+621,Messer Gas,Guayama,17.9640742,-66.1339825,-1
+622,Community Gas Service INC.,Salinas,17.9628276,-66.2969508,-1
+623,Texaco 038,Caguas,18.2281626,-66.0297746,93.7
+624,TotalEnergies Camp. Santiago,Salinas,17.9936068,-66.2760397,93.7
+625,EmpireGas Arroyo,Arroyo,17.9793834,-66.0414266,-1
+626,Mobil Gasoline Station,Cayey,18.1069385,-66.1596774,92.7
+627,MOBIL - Gas Station,Caguas,18.2231034,-66.041557,92.7
+628,Gulf & Garage Wilmar,Patillas,17.9950411,-66.024038,91.7
+629,Mobil,Cayey,18.1393366,-66.1161461,92.7
+630,Mobil - Gas Station,Barranquitas,18.1857252,-66.3018344,92.7
+631,Cora Gual Gas Station,Arroyo,17.9954005,-66.0567372,-1
+632,Lopez Gas Company,Arroyo,17.9779607,-66.0704687,-1
+633,Merle Service Center,Patillas,17.9784065,-65.9727207,-1
+634,One Stop Auto Service,Guayama,17.9667372,-66.1305924,-1
+635,TotalEnergies Los Veteranos,Guayama,17.9794079,-66.1025047,93.7
+636,Shell,Salinas,17.9846829,-66.291727,93.7
+637,Beltran Service Station Inc (shell),Guayama,17.979522,-66.1103164,93.7
+638,Power Performance Corp.,Guayama,17.9804382,-66.1025706,-1
+639,TotalEnergies Palmas Altas,Barceloneta,18.454554,-66.539101,93.7
+640,Puma Energy,Vega Alta,18.4677973,-66.3308827,92.7
+641,Mobil - Gas Station,Dorado,18.4583503,-66.2591033,92.7
+642,"American Gasoline Corp. Candelaria, Toa Baja",Toa Baja,18.4161361,-66.2259018,92.7
+643,Gasolineras Clark,Vega Baja,18.4442665,-66.3887577,92.7
+644,"American Gasoline Toa ville, Toa Baja",Toa Baja,18.4453026,-66.2436385,92.7
+645,GULF-Vega Baja Service Station,Vega Baja,18.4417617,-66.3557314,91.7
+646,Clark Gas Station,Vega Baja,18.4445931,-66.3970418,-1
+647,Puma 992,Vega Baja,18.4466137,-66.403521,92.7
+648,"American Gasoline Campanilla, Toa Baja",Toa Baja,18.4199661,-66.2500115,92.7
+649,Texaco,Hatillo,18.4877658,-66.8009513,93.7
+650,Puma Energy,Dorado,18.4665828,-66.2779714,92.7
+651,Gasolinera Puma,Guayama,17.9785511,-66.0913827,92.7
+652,Mobil - Gas Station,Guayama,17.9681363,-66.1293827,92.7
+653,Ecomaxx Gasoline Station,Guayama,17.9805081,-66.1100633,92.7
+654,Puma Salinas Speed Way,Salinas,17.9681981,-66.2630836,92.7
+655,Mobil,Arroyo,17.9744103,-66.0582761,92.7
+656,TotalEnergies Pozo Hondo,Guayama,17.9798034,-66.1217325,93.7
+657,American Gasoline,Salinas,17.9763125,-66.3028125,92.7
+658,Gasolinera 76,Guayama,17.9565493,-66.1664597,92.7
+659,Ultra Top Fuel,Salinas,17.9766707,-66.301302,92.7
+660,Gasolinera Gulf Guardarraya,Patillas,17.9719578,-65.9516197,92.7
+661,TotalEnergies Quintón,Coamo,18.0660828,-66.3663762,93.7
+662,Toral,Caguas,18.2405446,-66.0159652,93.7
+663,Gulf,Arroyo,17.9761455,-66.0689191,91.7
+664,Gulf,Cayey,18.0995487,-66.1921978,91.7
+665,Gulf,Guayama,17.9638049,-66.1336082,91.7
+666,Mobil - Gas Station,Caguas,18.2151287,-66.0358796,92.7
+667,Gulf Station,Salinas,17.9753586,-66.295151,91.7
+668,Clark Gas Station,Santa Isabel,17.9678189,-66.4083986,-1
+669,Texaco,Caguas,18.2390551,-66.0204257,93.7
+670,Gulf,Cayey,18.1135572,-66.1635837,91.7
+671,Ecomaxx,Juncos,18.2274839,-65.9220584,93.7
+672,Gulf,Barranquitas,18.1724718,-66.3163445,91.7
+673,TotalEnergies Sabana Seca,Toa Baja,18.4381418,-66.1863512,93.7
+674,Gulf,San Lorenzo,18.2027703,-65.9855091,91.7
+675,Texaco 901,Manatí,18.4170045,-66.4840708,93.7
+676,Puma Energy,Dorado,18.4564879,-66.2552964,92.7
+677,American Gasoline,Toa Baja,18.4161552,-66.2259008,92.7
+678,Phillips 66,Vega Alta,18.4142898,-66.3118813,91.7
+679,Mobil - Gas Station,Dorado,18.4614191,-66.2673484,92.7
+680,Phillips 66,Guayama,17.9609851,-66.137015,91.7
+681,Phillips 66,Arecibo,18.4408356,-66.7405191,91.7
+682,Gulf,Guayama,17.9787315,-66.0926241,91.7
+683,Chevron,Arecibo,18.4719341,-66.7384316,-1
+684,American Gasoline Dorado,Dorado,18.4378925,-66.2793733,92.7
+685,Mobil - Gas Station,San Juan,18.4467859,-66.0726198,92.7
+686,Gasolinera Puma Las Cruces 995,Caguas,18.1685125,-66.0969219,92.7
+687,Gasolinera Alejandro Inc,San Lorenzo,18.1834793,-65.9589339,92.7
+688,Turabo Service Station,Cidra,18.1959127,-66.1247194,-1
+689,GONZÁLEZ GAS,San Juan,18.4348419,-66.0541787,-1
+690,Ceci Gas,Toa Baja,18.4479609,-66.1779036,-1
+691,Planta de gas Maunabo Tropigas,Maunabo,17.9988749,-65.8862147,-1
+692,Mobil,Naguabo,18.2124966,-65.7414435,92.7
+693,Cocodrive Gas Station,Naguabo,18.2074371,-65.7328021,-1
+694,Lolo Gomas Auto Parts,Cidra,18.1931582,-66.1572098,-1
+695,Juancho Gas,Cayey,18.1353051,-66.0686928,-1
+696,Cayey Service Gas,Cayey,18.1131459,-66.1658807,-1
+697,Jose Gas,Cayey,18.1120624,-66.1624733,-1
+698,Texaco Gas Station - Gasolinera Texaco,Cidra,18.1721962,-66.1562825,92.7
+699,Empire Gas Humacao,Humacao,18.1266722,-65.8204218,-1
+700,Ecomaxx - Mega Juncos,Juncos,18.1764349,-65.9119096,93.7
+701,ATM $ Puma Gas Station,Morovis,18.2731822,-66.3948229,92.7
+702,Progreso Gas / Gas Los Reyes,Guaynabo,18.3478157,-66.1092354,-1
+703,Cany Boy Gas Station,Trujillo Alto,18.3551787,-66.0066361,-1
+704,Garaje Puma Cidra,Cidra,18.1794782,-66.1610024,92.7
+705,SAN JUAN GAS,San Juan,18.4506021,-66.0846511,-1
+706,TotalEnergies Barrio Bayamón,Cidra,18.1743917,-66.1116933,93.7
+707,Gulf Pitahaya,Humacao,18.1720864,-65.8142503,91.7
+708,EcoMaxx,Cidra,18.17353,-66.160763,93.7
+709,Ecomaxx | Junquito's Service Station,Humacao,18.1453076,-65.8037774,93.7
+710,TotalEnergies Barrio Tejas,Las Piedras,18.1565632,-65.8629789,93.7
+711,Texaco 233,San Lorenzo,18.1078872,-65.9923609,93.7
+712,Puma Gas Station # 355,Las Piedras,18.1804094,-65.8705373,92.7
+713,El Nuevo Milenium,Maunabo,18.0104428,-65.9294188,-1
+714,Jugos Garaje,Humacao,18.0722403,-65.808832,-1
+715,Puma 240,Cidra,18.1770707,-66.1584205,92.7
+716,TotalEnergies Barrio Montones,Las Piedras,18.1846925,-65.8722683,93.7
+717,TotalEnergies College Park,San Juan,18.3757561,-66.0916073,93.7
+718,Mobil - Gas Station,Barranquitas,18.2433205,-66.2787199,92.7
+719,Mobil - Gas Station,Caguas,18.249238,-66.0356413,92.7
+720,Mobil - Gas Station,Toa Alta,18.3654048,-66.2268301,92.7
+721,Puma 058,Guaynabo,18.4046827,-66.1061542,92.7
+722,Total - Montehiedra,San Juan,18.3393166,-66.0704422,93.7
+723,Mobil - Gas Station,Carolina,18.42757,-65.9756624,92.7
+724,Mobil Gas Station,San Juan,18.4211171,-66.0441331,92.7
+725,Ecomaxx,Vega Baja,18.4463281,-66.3898109,93.7
+726,ECOMAXX Come to Go Station,Cidra,18.1490695,-66.1635704,93.7
+727,"Ortiz Texas Service Station, Inc.",Humacao,18.1477774,-65.8507647,-1
+728,Mobil,San Juan,18.4063769,-66.0022641,92.7
+729,Ecomaxx,San Lorenzo,18.1910921,-65.9637303,93.7
+730,TotalEnergies José de Diego,San Lorenzo,18.1906811,-65.962911,93.7
+731,Ртл,San Lorenzo,18.1464837,-65.9427673,-1
+732,Puma Super 7 Cayey PR 1,Cayey,18.1075848,-66.15847,92.7
+733,TotalEnergies Punta Santiago I,Humacao,18.1483385,-65.7860197,93.7
+734,VP Racing Fuels Humacao,Humacao,18.1869972,-65.7962873,-1
+735,Puma Gas Station - Gasolinera Puma,Humacao,18.1491709,-65.8173732,92.7
+736,American Gasoline Toa Alta,Toa Alta,18.3758921,-66.244881,92.7
+737,Irlanda Gas Station Puma,Bayamón,18.3575785,-66.1533872,92.7
+738,TotalEnergies Reparto Metropolitano,San Juan,18.399856,-66.07366,93.7
+739,TotalEnergies Santa Rosa,Guaynabo,18.3545048,-66.1170109,93.7
+740,Shell,Guaynabo,18.3844364,-66.1193972,93.7
+741,MOBIL - Gas Station,Guaynabo,18.3791407,-66.1194287,92.7
+742,TotalEnergies Laurel,Bayamón,18.3761876,-66.1467832,93.7
+743,Puma,Carolina,18.4237635,-65.9883912,92.7
+744,MOBIL - Gas Station,San Juan,18.4513265,-66.0405874,92.7
+745,Puma 927,Las Piedras,18.1745867,-65.8782271,92.7
+746,Mobil,Las Piedras,18.1850431,-65.8723509,92.7
+747,Mobil - Gas Station,Humacao,18.1517253,-65.8312362,92.7
+748,Shell,Humacao,18.1442101,-65.8077189,93.7
+749,TEXACO-LAS PIEDRAS Service Station,Las Piedras,18.1745204,-65.8781899,93.7
+750,Total Service Market,Humacao,18.1482476,-65.7862109,93.7
+751,Total Service Market 1,Las Piedras,18.1565238,-65.8629407,93.7
+752,Mobil - Gas Station,Humacao,18.1447248,-65.8003812,92.7
+753,Puma 806,Maunabo,18.0021903,-65.8875733,92.7
+754,Mobil San Lorenzo,San Lorenzo,18.1901578,-65.962276,92.7
+755,Shell,Humacao,18.1526687,-65.8325903,93.7
+756,Santos Texaco,Yabucoa,18.0727889,-65.873258,93.7
+757,Puma,San Juan,18.3679908,-66.0810216,92.7
+758,Mobil - Gas Station,San Juan,18.4107662,-66.0646779,92.7
+759,Buchanan Service Station,Bayamón,18.4174311,-66.1251406,-1
+760,Puma Nro. 207,Carolina,18.4314535,-66.0036637,92.7
+761,Texaco,Toa Baja,18.4377608,-66.1662468,93.7
+762,Phillips 66,Cataño,18.4394148,-66.1173209,91.7
+763,TotalEnergies Parada 24,San Juan,18.4413645,-66.0639854,93.7
+764,Ecomaxx,San Juan,18.4494634,-66.0769929,93.7
+765,TotalEnergies Boulevard,Toa Baja,18.4455289,-66.175322,93.7
+766,TotalEnergies Parada 18,San Juan,18.446922,-66.076714,93.7
+767,Mobile,San Juan,18.4518658,-66.0396823,92.7
+768,Gulf,Cataño,18.4417271,-66.1185923,91.7
+769,Gulf,Toa Baja,18.4372392,-66.1782419,91.7
+770,TotalEnergies Isla Verde,Carolina,18.4442777,-66.0311386,93.7
+771,TotalEnergies Calle Loíza,San Juan,18.4518489,-66.0605956,93.7
+772,TotalEnergies Highland,Toa Baja,18.450374,-66.1648456,93.7
+773,Jenin Gas Station,San Juan,18.4373121,-66.0453747,-1
+774,Shell - North Shopping Center,San Juan,18.447488,-66.0505939,93.7
+775,Gulf • Nur Gas Station,San Juan,18.4116946,-66.0306726,91.7
+776,Total,Carolina,18.4560805,-65.9908115,93.7
+777,Mobil - Gas Station,San Juan,18.4149395,-66.061403,92.7
+778,Mobil,San Juan,18.4490693,-66.0822665,92.7
+779,Mobil,San Juan,18.4459493,-66.0776775,92.7
+780,Puma,San Juan,18.4013983,-66.0560566,92.7
+781,Gulf,San Juan,18.4448151,-66.0781315,91.7
+782,bp,Cataño,18.4543392,-66.1445386,-1
+783,Garaje Total,Las Piedras,18.156445,-65.862842,93.7
+784,Gulf,San Juan,18.4431682,-66.0669222,91.7
+785,Puma,Carolina,18.4440317,-66.0289257,92.7
+786,Puma,Las Piedras,18.1832082,-65.8685554,92.7
+787,Millito SS,Yabucoa,18.0503202,-65.8826736,-1
+788,Puma,San Lorenzo,18.1925624,-65.96615,92.7
+789,"Arroyo Service Station, Inc. (Shell)",Arroyo,17.9684838,-66.0610606,93.7
+790,Energy ( Gulf del Aponte ),Cayey,18.1120954,-66.1710757,91.7
+791,TotalEnergies Guavate,Cidra,18.1538058,-66.1013504,93.7
+792,Mobil - Gas Station,Humacao,18.1538213,-65.8199525,92.7
+793,MOBIL - Gas Station,Humacao,18.1455786,-65.7996957,92.7
+794,TotalEnergies Miramar,San Juan,18.4558867,-66.0828839,93.7
+795,MOBIL - Gas Station,San Juan,18.4514956,-66.0735166,92.7
+796,American Gasoline Cataño,Cataño,18.4542139,-66.144602,92.7
+797,Camarones Gas Station,Guaynabo,18.3474052,-66.1087415,-1
+798,Gulf,San Juan,18.4512613,-66.057273,91.7
+799,Mobil - Gas Station,San Juan,18.4522577,-66.0640691,92.7
+800,Puma,San Juan,18.4533069,-66.0728345,92.7
+801,TotalEnergies Puerta de Tierra,San Juan,18.4656344,-66.0981094,93.7
+802,Jenin Gas Station,San Juan,18.4339366,-66.0448334,-1
+803,GULF-La Bodega San Juan PR-23,San Juan,18.4134831,-66.0898762,91.7
+804,Gulf,San Juan,18.462848,-66.0989129,91.7
+805,Texaco Miramar,San Juan,18.4518146,-66.0823231,93.7
+806,Shell Belhom,San Juan,18.4651634,-66.0965258,93.7
+807,G.A.S. Inc.,San Juan,18.4072819,-66.0596467,-1
+808,Texaco,San Juan,18.4522787,-66.0559345,93.7
+809,Mobil,San Juan,18.4654572,-66.0963308,92.7
+810,Texaco (El Botecito) #990,Humacao,18.1119626,-65.8220465,93.7
+811,Shell,Humacao,18.1444417,-65.830433,93.7
+812,Texaco 366,San Lorenzo,18.1832363,-65.966557,93.7
+813,Humacao 76 Service Station,Humacao,18.1377518,-65.8272035,91.7
+814,TotalEnergies Montebello,Cayey,18.1235011,-66.1379446,93.7
+815,Gulf,Humacao,18.1238159,-65.8198767,91.7
+816,Gulf,Yabucoa,18.0941641,-65.8413464,91.7
+817,Esso,Humacao,18.1490814,-65.8187994,-1
+818,Any Time Gas Humacao,Humacao,18.1291754,-65.8223128,-1
+819,Caribe,Moca,18.3786029,-67.0797569,-1
+820,Suárez Gas Ceiba,Ceiba,18.2352557,-65.6641175,-1
+821,Gulf Boqueron Las Piedras,Las Piedras,18.2183996,-65.8311886,91.7
+822,"To Go Stores #55, Shell Juncos",Juncos,18.231227,-65.9076129,93.7
+823,Ecomaxx | San Pedro Service Station,Fajardo,18.3125565,-65.6760013,93.7
+824,Naguabo Gas,Ceiba,18.2686667,-65.645473,-1
+825,Total,Ceiba,18.2704024,-65.6432717,93.7
+826,Total,Fajardo,18.3321144,-65.6616186,93.7
+827,Puma 974,Yabucoa,18.0898482,-65.8478816,92.7
+828,Texaco Venta de Marbetes & Inspeción Diesel y Gasolina,Río Grande,18.3712735,-65.7674304,92.7
+829,Gasolinera San Pedro,Fajardo,18.3125565,-65.6760013,92.7
+830,Gasorama/Empire Gas,Naguabo,18.2130473,-65.7504685,-1
+831,Behind gas station,Culebra,18.3012032,-65.3018992,-1
+832,GULF ROUTE 65-Rio Grande Station,Río Grande,18.3745655,-65.8214833,91.7
+833,Mobil - Gas Station,Caguas,18.2233501,-66.02385,92.7
+834,Estación Frapee,Las Piedras,18.2187231,-65.831386,-1
+835,JBG Petroleum Corp.,San Juan,18.4176102,-66.0665152,-1
+836,Texaco Barbosa,San Juan,18.4261075,-66.0482554,93.7
+837,Condado Servicenter Inc.,San Juan,18.4518153,-66.0606238,-1
+838,Puma Milla de Oro No. 212,San Juan,18.4298895,-66.0585111,92.7
+839,Gulf,Carolina,18.4162675,-65.9841834,91.7
+840,JM Services Puma 804,Luquillo,18.3504395,-65.6823008,92.7
+841,Ecomaxx,Fajardo,18.3311937,-65.6417579,93.7
+842,Puma 156,Fajardo,18.3328002,-65.6631757,92.7
+843,TotalEnergies Río Hondo,Bayamón,18.429905,-66.165863,93.7
+844,Mueblería García y García Gas,Naguabo,18.2112049,-65.7361619,-1
+845,Gasolinera Total Eureka,Fajardo,18.3293032,-65.651247,92.7
+846,TotalEnergies Barrio Macho,Ceiba,18.270486,-65.643234,93.7
+847,Texaco,Caguas,18.2112265,-66.0020687,93.7
+848,Shell,San Juan,18.3683335,-66.0765825,93.7
+849,Puma,Humacao,18.1456734,-65.7996884,92.7
+850,Toral,Juncos,18.2357785,-65.8994303,93.7
+851,Gasolinería Santa Paula Cagua,Caguas,18.240438,-66.015967,92.7
+852,Mobil - Gas Station,Bayamón,18.4150857,-66.1614589,92.7
+853,Mobil - Gas Station,Carolina,18.4158081,-65.9886842,92.7
+854,Gulf Quisqueya,San Juan,18.4272736,-66.052391,91.7
+855,Esso,Toa Baja,18.4377828,-66.1663125,-1
+856,bp,San Juan,18.4134239,-66.0885666,-1
+857,Jugos Garaje,Naguabo,18.1990655,-65.7683253,-1
+858,TotalEnergies Villa Pesquera,Culebra,18.301101,-65.300577,93.7
+859,TotalEnergies Avenida El Conquistador,Fajardo,18.3322196,-65.6616861,93.7
+860,Tropigas,Naguabo,18.2184769,-65.7331665,-1
+861,Empire Gas Ceiba,Ceiba,18.2416709,-65.6581405,-1
+862,Puma,Fajardo,18.3478221,-65.6767607,92.7
+863,Phillips 66 Gas Station,Naguabo,18.2074371,-65.7328021,91.7
+864,ATM $ Gas Station 2,Vieques,18.1406715,-65.4525978,-1
+865,Dakiti Gas Station & Mini Market,Culebra,18.3012105,-65.3007495,-1
+866,Clark Gas Station,Ceiba,18.2596733,-65.6495081,-1
+867,TotalEnergies Pueblo,Fajardo,18.3292773,-65.6512699,93.7
+868,Gasolinera Tesco,Humacao,18.1649038,-65.7461605,92.7
+869,TotalEnergies Monte Santo,Vieques,18.1407333,-65.4538194,93.7
+870,Mobil - Gas Station,Fajardo,18.3232455,-65.650915,92.7
+871,Gulf,Trujillo Alto,18.373792,-66.0178515,91.7
+872,Shell,Naguabo,18.213021,-65.7264793,93.7
+873,Texaco 376,Fajardo,18.3403575,-65.6605159,91.7
+874,Jugos Garaje,Luquillo,18.3509789,-65.6879566,-1
+875,Puma Gas Station,Naguabo,18.2142791,-65.7363778,92.7
+876,Puma Gas Station - Gasolinera Puma,Fajardo,18.345921,-65.6721332,92.7
+877,Puma,Fajardo,18.331948,-65.6466412,92.7
+878,Clark,Naguabo,18.2244073,-65.6843302,-1
+879,Mobil 65 de Infantería,Carolina,18.3979651,-65.9893818,92.7
+880,TO GO STORE,Fajardo,18.345908,-65.6719805,-1
+881,Gulf Naguabo,Naguabo,18.1935212,-65.7122681,91.7
+882,Gulf,Carolina,18.3819366,-65.9784279,91.7
+883,Gulf,San Juan,18.3997847,-66.0184208,91.7
+884,GA Gas St,Carolina,18.3381476,-65.9566003,-1
+885,Petron gasul,Luquillo,18.3787191,-65.7189207,-1
+886,Mobil gas station,Guaynabo,18.3342827,-66.1334329,92.7
+887,Texaco Gas Station - Gasolinera Texaco,Luquillo,18.3776455,-65.7525546,92.7
+888,Gulf Gas Station,Ceiba,18.2622813,-65.6540987,91.7
+889,Eureka gas station las croabas,Fajardo,18.36329,-65.6367143,-1
+890,Gulf,Fajardo,18.3312369,-65.6416193,91.7
+891,Mobil - Gas Station,Luquillo,18.3635691,-65.7084328,92.7
+892,TotalEnergies Playa Azul,Luquillo,18.377725,-65.720409,93.7
+893,Puma Gas Station - Gasolinera Puma,Luquillo,18.3787947,-65.7189716,92.7
+894,Alvarado Gas,Luquillo,18.3524199,-65.6942226,-1
+895,Toral To Go Stores,Humacao,18.1644762,-65.8144603,93.7
+896,Texaco Gas Station & Mini Market,Juncos,18.2401289,-65.8967803,93.7
+897,TotalEnergies Isabel II,Vieques,18.144923,-65.441782,93.7
+898,Mercedes Gas Station,Vieques,18.1449062,-65.4417026,-1
+899,Texaco 901,San Juan,18.4258761,-66.0486022,93.7
+900,Texaco,San Juan,18.414064,-66.0892482,93.7
+901,Puma N⁰ 226,San Juan,18.4221842,-66.0639895,92.7
+902,Gulf Río Plantation,Bayamón,18.4163263,-66.1771422,91.7

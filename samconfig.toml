@@ -8,3 +8,4 @@ capabilities = "CAPABILITY_IAM"
 parameter_overrides = "EnvType=\"NP\""
 image_repositories = []
 confirm_changeset = true
+disable_rollback = true

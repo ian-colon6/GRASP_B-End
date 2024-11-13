@@ -2,7 +2,8 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, ScanCommand } from "@aws-sdk/lib-dynamodb";
 
 // Crear el cliente DynamoDB y el cliente de documentos
-const client = new DynamoDBClient({});
+// const client = new DynamoDBClient({endpoint: "http://10.34.4.147:8000",});
+const client = new DynamoDBClient();
 const docClient = DynamoDBDocumentClient.from(client);
 
 // Obtener el nombre de la tabla desde la variable de entorno
