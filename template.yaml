@@ -61,8 +61,8 @@ Resources:
       OpenApiVersion: 3.0.1
       StageName: !Ref EnvType
       Cors:
-        AllowMethods: "'GET,POST,OPTIONS'"
-        AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+        AllowMethods: "'*'"
+        AllowHeaders: "'*'"
         AllowOrigin: "'*'"
   getUsersFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
@@ -79,6 +79,22 @@ Resources:
           Properties:
             Path: /getusers
             Method: get
+            RestApiId: !Ref ApiDeployment
+  updateGasPriceFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: updateGasPrice/
+      Handler: app.lambdaHandler
+      Runtime: nodejs18.x
+      Policies: AmazonDynamoDBFullAccess
+      Architectures:
+        - x86_64
+      Events:
+        getUsersEvent:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /updategasprice
+            Method: post
             RestApiId: !Ref ApiDeployment
   getClosestGasStations:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
