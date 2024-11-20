@@ -1,5 +1,5 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
-import { DynamoDBDocumentClient, GetCommand } from "@aws-sdk/lib-dynamodb";
+import { DynamoDBDocumentClient, GetCommand, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 
 // const client = new DynamoDBClient({ endpoint: "http://10.34.11.6:8000" });
 const client = new DynamoDBClient();
@@ -14,7 +14,7 @@ export const lambdaHandler = async (event, context) => {
     Key: {
       Station_ID: stationId,
     },
-    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Latitude, Station_Longitude, Station_Name",
+    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Latitude, Station_Longitude, Station_Name, RatingCount, UserRatings",
   };
 
   try {
@@ -30,6 +30,30 @@ export const lambdaHandler = async (event, context) => {
       },
       body: JSON.stringify(data.Item), // No need to wrap data.Item in another JSON.stringify
     };
+
+    // If RatingCount or UserRatings do not exist, add them
+    if (!data.Item.RatingCount || !data.Item.UserRatings) {
+      const updateParams = {
+        TableName: table,
+        Key: { Station_ID: stationId },
+        UpdateExpression: "SET RatingCount = if_not_exists(RatingCount, :initialCount), UserRatings = if_not_exists(UserRatings, :initialRatings)",
+        ExpressionAttributeValues: {
+          ":initialCount": 0,
+          ":initialRatings": [],
+        },
+        ReturnValues: "UPDATED_NEW",
+      };
+
+      const updateCommand = new UpdateCommand(updateParams);
+      await docClient.send(updateCommand);
+
+      // Update the response to reflect the new attributes
+      response.body = JSON.stringify({
+        ...data.Item,
+        RatingCount: 0,
+        UserRatings: [],
+      });
+    }
 
     return response;
 
