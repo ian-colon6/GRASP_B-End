@@ -20,17 +20,17 @@ export const lambdaHandler = async (event, context) => {
     const data = await docClient.send(command);
     tableData = data.Items;
 
-    // Iterate through each station and check if RatingCount and UserRatings exist
+    // Iterate through each station and check if RatingCount and UserRatings are missing or incorrect
     for (let station of tableData) {
-      // Explicit check for null or undefined attributes
-      const isMissingRatingCount = station.RatingCount === undefined || station.RatingCount === null;
-      const isMissingUserRatings = station.UserRatings === undefined || station.UserRatings === null;
+      // Explicit checks for undefined, null, or empty values
+      const isMissingRatingCount = station.RatingCount === undefined || station.RatingCount === null || station.RatingCount === 0;
+      const isMissingUserRatings = station.UserRatings === undefined || station.UserRatings === null || station.UserRatings.length === 0;
 
       if (isMissingRatingCount || isMissingUserRatings) {
         const updateParams = {
           TableName: table,
           Key: { Station_ID: station.Station_ID }, // Use the Station_ID for each station
-          UpdateExpression: "SET RatingCount = if_not_exists(RatingCount, :initialCount), UserRatings = if_not_exists(UserRatings, :initialRatings)",
+          UpdateExpression: "SET RatingCount = :initialCount, UserRatings = :initialRatings",
           ExpressionAttributeValues: {
             ":initialCount": 0,
             ":initialRatings": [],
