@@ -64,6 +64,7 @@ Resources:
         AllowMethods: "'GET,POST,OPTIONS'"
         AllowHeaders: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
         AllowOrigin: "'*'"
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
   scraperFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -79,6 +80,7 @@ Resources:
             Path: /getPrices
             Method: get
             RestApiId: !Ref ApiDeployment
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
   getUsersFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
@@ -95,6 +97,7 @@ Resources:
             Path: /getusers
             Method: get
             RestApiId: !Ref ApiDeployment
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
   getClosestGasStations:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
@@ -111,6 +114,7 @@ Resources:
             Path: /getcloseststation
             Method: get
             RestApiId: !Ref ApiDeployment
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
   getGasStations:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
@@ -127,6 +131,7 @@ Resources:
             Path: /getgasstations
             Method: get
             RestApiId: !Ref ApiDeployment
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------
   getGasStation:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
@@ -143,7 +148,36 @@ Resources:
             Path: /getgasstation
             Method: get
             RestApiId: !Ref ApiDeployment
-  # Cognito User Pool for managing Users
+
+  # Lambda function for updating/fetching gas station ratings -------------------------------------------------------------------------------------------
+  stationRatings:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: stationRatings/  # Path to the folder where your Lambda code is stored
+      Handler: app.lambdaHandler
+      Runtime: nodejs18.x
+      Policies: 
+        - AmazonDynamoDBFullAccess
+      Environment:
+        Variables:
+          STATION_TABLE: !Ref GasStationsTable
+      MemorySize: 128
+      Timeout: 5
+      Events:
+        GetStationRating:
+          Type: Api
+          Properties:
+            Path: /stations/{Station_ID}/rating
+            Method: GET
+            RestApiId: !Ref ApiDeployment
+        PostStationRating:
+          Type: Api
+          Properties:
+            Path: /stations/{Station_ID}/rating
+            Method: POST
+            RestApiId: !Ref ApiDeployment
+
+  # Cognito User Pool for managing Users -----------------------------------------------------------------------------------------------------------
   UserPool:
     Type: AWS::Cognito::UserPool
     Properties:
@@ -162,7 +196,7 @@ Resources:
           AttributeDataType: String
           Required: true
           Mutable: true
-  # App client for your frontend to interact with Cognito
+# ---------------------------------------------------------------------------------------------------------------------------------------------
   UserPoolClient:
     Type: AWS::Cognito::UserPoolClient
     Properties: 
