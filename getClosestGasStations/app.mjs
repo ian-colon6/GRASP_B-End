@@ -2,7 +2,7 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, ScanCommand } from "@aws-sdk/lib-dynamodb";
 
 // Crear el cliente DynamoDB y el cliente de documentos
-// const client = new DynamoDBClient({endpoint: "http://10.34.29.102:8000",});
+// const client = new DynamoDBClient({endpoint: "http://10.34.41.166:8000",});
 const client = new DynamoDBClient();
 const docClient = DynamoDBDocumentClient.from(client);
 
@@ -31,6 +31,8 @@ function toGeoJSONFeatureCollection(data) {
       properties: {
         Station_City: station.Station_City,
         Station_Gas_Price: station.Station_Gas_Price,
+        Station_Diesel_Price: station.Station_Diesel_Price,
+        Station_Premium_Price: station.Station_Premium_Price,
         Station_ID: station.Station_ID,
         Station_Name: station.Station_Name,
       },
@@ -54,7 +56,7 @@ export const lambdaHandler = async (event, context) => {
 
   // Definir los parámetros del escaneo en DynamoDB
   var params = {
-    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name",
+    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price",
     TableName: table,
   };
 
