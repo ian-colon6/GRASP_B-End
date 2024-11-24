@@ -1,5 +1,5 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
-import { DynamoDBDocumentClient, GetCommand, UpdateCommand } from "@aws-sdk/lib-dynamodb";
+import { DynamoDBDocumentClient, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 
 // const client = new DynamoDBClient({ endpoint: "http://localhost:8000" }); // Uncomment for local testing
 const client = new DynamoDBClient();
@@ -8,94 +8,65 @@ const docClient = DynamoDBDocumentClient.from(client);
 const table = process.env.TABLE_GAS_STATIONS;
 
 export const lambdaHandler = async (event, context) => {
-    const { body, pathParameters, queryStringParameters, requestContext } = event;
-
-    const stationId = pathParameters?.stationId || queryStringParameters?.Station_ID;
-
-    if (!stationId) {
-        return {
-            statusCode: 400,
-            body: JSON.stringify({ message: "Station ID is required" }),
-        };
-    }
-
-    const userId = requestContext?.authorizer?.claims?.sub; // Get user ID from Cognito claims
-
-    console.log('Station ID:', stationId);
-    console.log('User ID:', userId);
-
     try {
-        if (event.httpMethod === "GET") {
-            // Fetch the station's rating info
-            const params = {
-                TableName: table,
-                Key: { Station_ID: stationId },
-                ProjectionExpression: "RatingCount, UserRatings",
-            };
-            const result = await docClient.send(new GetCommand(params));
+        // Log the incoming event for debugging
+        console.log("Received event:", JSON.stringify(event, null, 2));
 
-            const { RatingCount = 0, UserRatings = {} } = result.Item || {};
-            const totalRating = Object.values(UserRatings).reduce((sum, rating) => sum + rating, 0);
-            const averageRating = RatingCount > 0 ? totalRating / RatingCount : 0;
+        // Parse the body and extract the rating
+        const { rating } = JSON.parse(event.body);
+        const stationId = event.pathParameters?.stationId;
+        const userId = event.requestContext?.authorizer?.claims?.sub; // Get user ID from Cognito claims
 
+        // Validate inputs
+        if (!stationId) {
+            console.log("Station_ID is missing");
             return {
-                statusCode: 200,
-                body: JSON.stringify({ RatingCount, AverageRating: averageRating }),
+                statusCode: 400,
+                body: JSON.stringify({ message: "Station_ID is required" }),
             };
         }
 
-        if (event.httpMethod === "POST") {
-            // Update the station's rating
-            const { rating } = JSON.parse(body);
-
-            if (!rating || rating < 1 || rating > 5) {
-                return {
-                    statusCode: 400,
-                    body: JSON.stringify({ message: "Invalid rating value. Must be between 1 and 5." }),
-                };
-            }
-
-            const updateParams = {
-                TableName: table,
-                Key: { Station_ID: stationId },
-                UpdateExpression: `
-          SET #userRatings.#userId = :rating, 
-              RatingCount = if_not_exists(RatingCount, :zero) + :increment,
-              UserRatings = if_not_exists(UserRatings, :emptyMap)
-        `,
-                ExpressionAttributeNames: {
-                    "#userRatings": "UserRatings",
-                    "#userId": userId,
-                },
-                ExpressionAttributeValues: {
-                    ":rating": rating,
-                    ":zero": 0,
-                    ":increment": 1,
-                    ":emptyMap": {},
-                },
-                ReturnValues: "UPDATED_NEW",
-            };
-
-            const result = await docClient.send(new UpdateCommand(updateParams));
-            console.log('Update Result:', result);
-
+        if (!rating || rating < 1 || rating > 5) {
+            console.log("Invalid rating:", rating);
             return {
-                statusCode: 200,
-                body: JSON.stringify({ message: "Rating updated successfully" }),
+                statusCode: 400,
+                body: JSON.stringify({ message: "A valid rating (1-5) must be provided" }),
             };
         }
 
-        return {
-            statusCode: 405,
-            body: JSON.stringify({ message: "Method not allowed" }),
+        // Update parameters for DynamoDB
+        const updateParams = {
+            TableName: table,
+            Key: { Station_ID: stationId },
+            UpdateExpression: `
+        SET UserRatings.#userId = :rating,
+            RatingCount = if_not_exists(RatingCount, :zero) + :increment
+      `,
+            ExpressionAttributeNames: {
+                "#userId": userId,  // Maps dynamic user ID under UserRatings
+            },
+            ExpressionAttributeValues: {
+                ":rating": rating,
+                ":zero": 0,
+                ":increment": 1,
+            },
+            ReturnValues: "UPDATED_NEW",
         };
 
+        // Execute the update command
+        const result = await docClient.send(new UpdateCommand(updateParams));
+        console.log("Update Result:", result);
+
+        return {
+            statusCode: 200,
+            body: JSON.stringify({ message: "Rating updated successfully", updatedAttributes: result.Attributes }),
+        };
     } catch (error) {
+        // Handle errors gracefully and log details
+        console.error("Error processing request:", error);
         return {
             statusCode: 500,
             body: JSON.stringify({ message: "Error processing request", error: error.message }),
         };
     }
 };
-
-
