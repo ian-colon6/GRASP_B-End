@@ -7,7 +7,7 @@ const docClient = DynamoDBDocumentClient.from(client);
 const table = process.env.TABLE_GAS_STATIONS;
 
 export const lambdaHandler = async (event, context) => {
-  let tableData = [];
+  let tableData = {};
 
   const params = {
     ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Latitude, Station_Longitude, Station_Name, RatingCount, UserRatings",
