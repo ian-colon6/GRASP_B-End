@@ -147,23 +147,15 @@ Resources:
             Method: get
             RestApiId: !Ref ApiDeployment
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------
-  getGasStation:
+  setRatingsOnTableToZero:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: getGasStation/
+      CodeUri: setRatingsOnTableToZero/
       Handler: app.lambdaHandler
       Runtime: nodejs18.x
       Policies: AmazonDynamoDBFullAccess
       Architectures:
         - x86_64
-      Events:
-        getUsersEvent:
-          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
-          Properties:
-            Path: /getgasstation
-            Method: get
-            RestApiId: !Ref ApiDeployment
-
   # Lambda function for updating/fetching gas station ratings -------------------------------------------------------------------------------------------
   stationRatings:
     Type: AWS::Serverless::Function

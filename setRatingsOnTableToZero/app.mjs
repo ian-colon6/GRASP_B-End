@@ -20,6 +20,33 @@ export const lambdaHandler = async (event, context) => {
     const data = await docClient.send(command);
     tableData = data.Items;
 
+    // Iterate through each station and check if RatingCount and UserRatings are missing or incorrect
+    for (let station of tableData) {
+      // Explicit checks for undefined, null, or empty values
+      const isMissingRatingCount = station.RatingCount === undefined || station.RatingCount === null || station.RatingCount === 0;
+      const isMissingUserRatings = station.UserRatings === undefined || station.UserRatings === null || station.UserRatings.length === 0;
+
+      if (isMissingRatingCount || isMissingUserRatings) {
+        const updateParams = {
+          TableName: table,
+          Key: { Station_ID: station.Station_ID }, // Use the Station_ID for each station
+          UpdateExpression: "SET RatingCount = :initialCount, UserRatings = :initialRatings",
+          ExpressionAttributeValues: {
+            ":initialCount": "0",
+            ":initialRatings": "0",
+          },
+          ReturnValues: "UPDATED_NEW",
+        };
+
+        // Update the station in the table
+        const updateCommand = new UpdateCommand(updateParams);
+        await docClient.send(updateCommand);
+
+        // Logs the update for debugging
+        console.log(`Updated Station_ID: ${station.Station_ID}`);
+      }
+    }
+
     // Construct response with updated table data
     const response = {
       statusCode: 200,
