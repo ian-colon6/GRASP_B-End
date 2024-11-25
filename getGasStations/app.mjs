@@ -19,6 +19,8 @@ function toGeoJSONFeatureCollection(data) {
         Station_Premium_Price: station.Station_Premium_Price,
         Station_ID: station.Station_ID,
         Station_Name: station.Station_Name,
+        RatingCount: station.RatingCount,
+        UserRatings: station.UserRatings
       },
       geometry: {
         type: "Point",
