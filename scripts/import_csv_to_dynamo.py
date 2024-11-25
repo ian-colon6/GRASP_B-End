@@ -59,7 +59,9 @@ def import_csv_to_dynamodb(csv_file_path):
                 "Station_City": row["Station_City"],
                 "Station_Lattitude": Decimal(row["Station_Lattitude"]),
                 "Station_Longitude": Decimal(row["Station_Longitude"]),
-                "Station_Gas_Price": Decimal(row["Station_Gas_Price"])
+                "Station_Gas_Price": Decimal(row["Station_Gas_Price"]),
+                "Station_Premium_Price": Decimal(row["Station_Premium_Price"]),
+                "Station_Diesel_Price": Decimal(row["Station_Diesel_Price"])
             }
 
             # Insert item into DynamoDB

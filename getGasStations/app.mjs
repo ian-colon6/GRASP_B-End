@@ -1,16 +1,39 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, ScanCommand, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 
-// const client = new DynamoDBClient({ endpoint: "http://10.34.4.147:8000" }); // Uncomment for local testing
-const client = new DynamoDBClient();
-const docClient = DynamoDBDocumentClient.from(client);
-const table = process.env.TABLE_GAS_STATIONS;
+// const client = new DynamoDBClient({endpoint: "http://10.34.41.166:8000"}) 
+const client = new DynamoDBClient()
+const docClient = DynamoDBDocumentClient.from(client)
+var table = process.env.TABLE_GAS_STATIONS
+
+
+function toGeoJSONFeatureCollection(data) {
+  return {
+    type: "FeatureCollection",
+    features: data.map(station => ({
+      type: "Feature",
+      properties: {
+        Station_City: station.Station_City,
+        Station_Gas_Price: station.Station_Gas_Price,
+        Station_Diesel_Price: station.Station_Diesel_Price,
+        Station_Premium_Price: station.Station_Premium_Price,
+        Station_ID: station.Station_ID,
+        Station_Name: station.Station_Name,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [station.Station_Longitude, station.Station_Lattitude]
+      }
+    }))
+  };
+}
+
 
 export const lambdaHandler = async (event, context) => {
   let tableData = {};
 
   const params = {
-    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Latitude, Station_Longitude, Station_Name, RatingCount, UserRatings",
+    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price, RatingCount, UserRatings",
     TableName: table,
   };
 
@@ -28,7 +51,7 @@ export const lambdaHandler = async (event, context) => {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'OPTIONS,GET',
       },
-      body: JSON.stringify(tableData), // Return the updated data
+      body: JSON.stringify(toGeoJSONFeatureCollection(tableData))
     };
 
     return response;
