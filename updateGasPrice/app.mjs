@@ -34,7 +34,7 @@ export const lambdaHandler = async (event, context) => {
         'Access-Control-Allow-Methods': 'OPTIONS,PUT'
         
       },
-      body: "Price Updated",
+  
     };
 
     return response;
