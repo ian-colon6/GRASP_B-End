@@ -206,8 +206,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,node,linux,windows,sam
-getGasStations/package-lock.json
-getUsers/package-lock.json
-hello-world/package-lock.json
-getClosestGasStations/package-lock.json
-getGasStation/package-lock.json
+package-lock.json
