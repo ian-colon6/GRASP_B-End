@@ -35,6 +35,8 @@ function toGeoJSONFeatureCollection(data) {
         Station_Premium_Price: station.Station_Premium_Price,
         Station_ID: station.Station_ID,
         Station_Name: station.Station_Name,
+        RatingCount: station.RatingCount,
+        UserRatings: station.UserRatings
       },
       geometry: {
         type: "Point",
@@ -56,7 +58,7 @@ export const lambdaHandler = async (event, context) => {
 
   // Definir los parámetros del escaneo en DynamoDB
   var params = {
-    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price",
+    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price, RatingCount, UserRatings",
     TableName: table,
   };
 
