@@ -18,6 +18,8 @@ function toGeoJSONFeatureCollection(station) {
         Station_Premium_Price: station.Station_Premium_Price,
         Station_ID: station.Station_ID,
         Station_Name: station.Station_Name,
+        RatingCount: station.RatingCount,
+        UserRatings: station.UserRatings
       },
       geometry: {
         type: "Point",
@@ -28,14 +30,14 @@ function toGeoJSONFeatureCollection(station) {
 }
 
 export const lambdaHandler = async (event, context) => {
-  const stationId = event.queryStringParameters.Station_ID; // Extract Station_ID from query params
+  const stationId = event.queryStringParameters.Station_ID; // Extract Station_ID from query params  
 
   const params = {
     TableName: table,
     Key: {
       Station_ID: stationId,
     },
-    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price",
+    ProjectionExpression: "Station_ID, Station_City, Station_Gas_Price, Station_Lattitude, Station_Longitude, Station_Name, Station_Premium_Price,Station_Diesel_Price, RatingCount, UserRatings",
   };
 
   try {
