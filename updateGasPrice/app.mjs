@@ -38,7 +38,7 @@ export const lambdaHandler = async (event, context) => {
       },
     };
     
-    await docClient.send(new UpdateCommand(upateParams));
+    await docClient.send(new UpdateCommand(updateParams));
     const response = {
       statusCode: 200,
       headers: {
