@@ -27,6 +27,7 @@ Globals:
       Variables:
         TABLE_GRASP_USERS: !Ref GraspUsersTable
         TABLE_GAS_STATIONS: !Ref GasStationsTable
+        TABLE_ADMINS: !Ref GraspAdminsTable
 
 Resources:
   GraspUsersTable:
@@ -52,6 +53,18 @@ Resources:
       KeySchema:
       - 
         AttributeName: "Station_ID"
+        KeyType: "HASH"
+  GraspAdminsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+      - 
+        AttributeName: "User_ID"
+        AttributeType: "S"
+      KeySchema:
+      - 
+        AttributeName: "User_ID"
         KeyType: "HASH"
       
   ApiDeployment:
