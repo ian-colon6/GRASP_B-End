@@ -110,6 +110,22 @@ Resources:
             Path: /getusers
             Method: get
             RestApiId: !Ref ApiDeployment
+  getAdminsFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: getAdmins/
+      Handler: app.lambdaHandler
+      Runtime: nodejs18.x
+      Policies: AmazonDynamoDBFullAccess
+      Architectures:
+        - x86_64
+      Events:
+        getUsersEvent:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /getadmins
+            Method: get
+            RestApiId: !Ref ApiDeployment
   getSingleGasStation:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:

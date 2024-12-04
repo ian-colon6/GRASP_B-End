@@ -3,7 +3,7 @@ import {DynamoDBDocumentClient,ScanCommand} from "@aws-sdk/lib-dynamodb";
 
 const client = new DynamoDBClient({})
 const docClient = DynamoDBDocumentClient.from(client)
-var table = process.env.TABLE_GRASP_USERS
+var table = process.env.TABLE_ADMINS
 export const lambdaHandler = async (event, context) => {
   var tableData = []
 
