@@ -77,12 +77,9 @@ export const lambdaHandler = async (event, context) => {
       
       // Agregar la distancia calculada al objeto de la estación
       return { ...station, distance };
-    });
-
+    });    
     // Ordenar las estaciones por distancia y tomar las 5 más cercanas
-    stationsWithDistance.sort((a, b) => a.distance - b.distance);
-    const nearestStations = stationsWithDistance.slice(0, 5);
-
+    const nearestStations = stationsWithDistance.filter(station => {return station.distance < 8})    
     // Respuesta HTTP con las estaciones más cercanas
     const response = {
       statusCode: 200,
