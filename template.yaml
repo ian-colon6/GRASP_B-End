@@ -219,13 +219,13 @@ Resources:
         GetStationRating:
           Type: Api
           Properties:
-            Path: /stations/{Station_ID}/rating
+            Path: /stations/rating
             Method: GET
             RestApiId: !Ref ApiDeployment
         PostStationRating:
           Type: Api
           Properties:
-            Path: /stations/{Station_ID}/rating
+            Path: /stations/rating
             Method: POST
             RestApiId: !Ref ApiDeployment
 
